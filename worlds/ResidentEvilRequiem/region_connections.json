@@ -1,0 +1,14 @@
+[
+    { 
+        "from": "Menu",
+        "to": "G RH",
+        "condition": {}
+    },
+    { 
+        "from": "G RH",
+        "to": "L RH",
+        "condition": {
+	    "Items": ["Wirecutters", 
+        }
+    },
+]

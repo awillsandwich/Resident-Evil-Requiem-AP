@@ -1,0 +1,369 @@
+[
+  {
+    "type": "Key",
+    "name": "Room 201 Key",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Wirecutters",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Fire Escape Key",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Cherub Key",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Lighter",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Antique Coin",
+    "decimal": "",
+    "count": 23,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Screwdriver",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "West Wing Key Card",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Pantry Key",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Unicorn Trinket Box",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Pencil",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Moon Quartz",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "East Wing Key Card",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 1",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Lockpick",
+    "decimal": "",
+    "count": 5,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Corrosive Acid",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Wrench",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Sun Quartz",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Leatherbound Notbook",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Organ Transpot Box",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Artificial Heart",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Artificial Heart",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 2",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 3",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Recovery",
+    "name": "Green Herb",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Med Injector",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Mixed Herb G+G",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Mixed Herb G+G+G",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Collector",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Denatured",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Converged",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Reversible",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Scrap",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Rare Metal",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Transfusion Bag",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Empty Injector",
+    "decimal": "",
+    "count": 4,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Requiem",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+    "Ammo": "12.7x55 Ammo"
+  },
+  {
+    "type": "Weapons",
+    "name": "B934",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapons",
+    "name": "S&S M232",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapons",
+    "name": "Makeshift Knife",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapons",
+    "name": "Hunting Knife",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapons",
+    "name": "Hemolytic Injector",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapons",
+    "name": "Empty Bottle",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapons",
+    "name": "Molotov Cocktail",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapons",
+    "name": "Bottle of Acid",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "Handgun Ammo",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "12.7x55 Ammo",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Hip Pouch",
+    "decimal": "",
+    "count": 4,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Stabilizer",
+    "decimal": "",
+    "count": 2,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Steroids",
+    "decimal": "",
+    "count": 2,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Override Manual",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+]
