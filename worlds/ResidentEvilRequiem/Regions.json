@@ -48,7 +48,7 @@
     "zone_id": 1
   },
   {
-    "name": "G CCC WW Hallway After Kitchen",
+    "name": "G CCC WW Kitchen Hallway",
     "zone_id": 1
   },
   {
@@ -72,11 +72,11 @@
     "zone_id": 1
   },
   {
-    "name": "G CCC WW Hallway after Dining Room",
+    "name": "G CCC WW Dinning Room Hallway",
     "zone_id": 1
   },
   {
-    "name": "G CCC WW Room Outside Leon Lounge",
+    "name": "G CCC WW 3F",
     "zone_id": 1
   },
   {
@@ -92,7 +92,11 @@
     "zone_id": 1
   },
   {
-    "name": "G CCC WW Hallway outside Custodian's Office",
+    "name": "G CCC WW Custodian's Office Hallway",
+    "zone_id": 1
+  },
+  {
+    "name": "G CCC WW Custodian's Office",
     "zone_id": 1
   },
   {
@@ -136,11 +140,11 @@
     "zone_id": 1
   },
   {
-    "name": "G CCC EW Hallway Outside Waiting Room",
+    "name": "G CCC EW 1F Hallway",
     "zone_id": 1
   },
   {
-    "name": "G CCC EW Hallway Outside Lead Reseacher's Office",
+    "name": "G CCC EW 2F Hallway",
     "zone_id": 1
   },
   {
@@ -160,7 +164,7 @@
     "zone_id": 1
   },
   {
-    "name": "G CCC Basement",
+    "name": "L CCC EW Attic",
     "zone_id": 1
   }
 ]
