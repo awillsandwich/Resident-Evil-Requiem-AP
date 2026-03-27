@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Room 201 Key",
+        "region": "G RH",
+        "original_item": "Room 201 Key",
+        "condition": {},
+        "item_object": "ds043_Detail",
+        "parent_object": "",
+        "folder_path": "AppResident/Instance/DetailSearch",
+	"Randomized": 0
+    },
+    {
+        "name": "Wirecutters",
+        "region": "G RH",
+        "original_item": "Wirecutters",
+        "condition": {},
+        "item_object": "it60_00_076",
+        "parent_object": "",
+        "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
+	"Randomized": 0
+    },
+    {
+        "name": "Fire Escape Key",
+        "region": "G RH",
+        "original_item": "Fire Escape Key",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"Randomized": 0
+    },
+    {
+        "name": "On Supply Box",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [7.8, 0.89, 9.16]
+    },
+    {
+        "name": "Next to bush",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008_01",
+        "parent_object": "",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-47.91, 0.57, -9.05]
+    },
+    {
+        "name": "Back of Van",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008_02",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-37.96, 0.65, 5.89]
+    },
+    {
+        "name": "Green Herb Back of Van",
+        "region": "L RH",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-50.22, 0.5, -42.33]
+    },
+    {
+        "name": "Draw at End of Hallway",
+        "region": "G CCC Intro",
+        "original_item": "Cherub Key",
+        "condition": {},
+        "item_object": "it60_00_013",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [13.95, 7.99, 44.83]
+    },
+]

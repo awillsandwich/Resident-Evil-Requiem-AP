@@ -260,7 +260,7 @@
     "Ammo": "12.7x55 Ammo"
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "B934",
     "decimal": "",
     "count": 1,
@@ -268,7 +268,7 @@
     "Ammo": "Handgun Ammo"
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "S&S M232",
     "decimal": "",
     "count": 1,
@@ -276,42 +276,42 @@
     "Ammo": "Handgun Ammo"
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Makeshift Knife",
     "decimal": "",
     "count": 1,
     "progression": 0
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Hunting Knife",
     "decimal": "",
     "count": 1,
     "progression": 0
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Hemolytic Injector",
     "decimal": "",
     "count": 1,
     "progression": 0
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Empty Bottle",
     "decimal": "",
     "count": 1,
     "progression": 0
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Molotov Cocktail",
     "decimal": "",
     "count": 1,
     "progression": 0
   },
   {
-    "type": "Weapons",
+    "type": "Weapon",
     "name": "Bottle of Acid",
     "decimal": "",
     "count": 1,
@@ -327,13 +327,6 @@
   {
     "type": "Ammo",
     "name": "12.7x55 Ammo",
-    "decimal": "",
-    "count": 1,
-    "progression": 0
-  },
-  {
-    "type": "Upgrade",
-    "name": "",
     "decimal": "",
     "count": 1,
     "progression": 0
@@ -362,6 +355,13 @@
   {
     "type": "Upgrade",
     "name": "Override Manual",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Tracking Module",
     "decimal": "",
     "count": 1,
     "progression": 0
