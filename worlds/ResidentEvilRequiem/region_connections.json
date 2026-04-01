@@ -34,7 +34,7 @@
         "from": "G CCC Intro Nurses' Station",
         "to": "L CCC Intro Rehabilitation Ward",
         "condition": {
-		"Items":["Screwdriver", "Fuse"]
+		"Items":["Fuse"]
 	}
     },
     { 

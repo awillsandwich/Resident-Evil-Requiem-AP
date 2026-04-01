@@ -50,6 +50,13 @@
   },
   {
     "type": "Key",
+    "name": "Fuse",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
     "name": "West Wing Key Card",
     "decimal": "",
     "count": 1,
