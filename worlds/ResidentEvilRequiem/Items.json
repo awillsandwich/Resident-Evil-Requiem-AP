@@ -284,6 +284,14 @@
   },
   {
     "type": "Weapon",
+    "name": "Freya's Needle",
+    "decimal": "",
+    "count" 1,
+    "progression": 0,
+    "Ammo": "Hamdgun Ammo"
+  },
+  {
+    "type": "Weapon",
     "name": "Makeshift Knife",
     "decimal": "",
     "count": 1,
