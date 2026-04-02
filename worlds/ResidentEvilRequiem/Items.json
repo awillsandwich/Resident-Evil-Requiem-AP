@@ -263,7 +263,7 @@
     "name": "Requiem",
     "decimal": "",
     "count": 1,
-    "progression": 0
+    "progression": 0,
     "Ammo": "12.7x55 Ammo"
   },
   {
@@ -271,7 +271,7 @@
     "name": "B934",
     "decimal": "",
     "count": 1,
-    "progression": 0
+    "progression": 0,
     "Ammo": "Handgun Ammo"
   },
   {
@@ -279,7 +279,7 @@
     "name": "S&S M232",
     "decimal": "",
     "count": 1,
-    "progression": 0
+    "progression": 0,
     "Ammo": "Handgun Ammo"
   },
   {
