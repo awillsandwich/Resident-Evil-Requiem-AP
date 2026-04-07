@@ -5,7 +5,6 @@
         "original_item": "Room 201 Key",
         "condition": {},
         "item_object": "ds043_Detail",
-        "parent_object": "",
         "folder_path": "AppResident/Instance/DetailSearch",
 	"Randomized": 0
     },
@@ -15,7 +14,6 @@
         "original_item": "Wirecutters",
         "condition": {},
         "item_object": "it60_00_076",
-        "parent_object": "",
         "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
 	"Randomized": 0
     },
@@ -1264,5 +1262,128 @@
         "item_object": "it99_06_004",
         "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
 	"item_position": [-65.15, 2.29, 11.39]
+    },
+    {
+        "name": "ID Wristband Level 2",
+        "region": "G CCC EW Examination Room",
+        "original_item": "ID Wristband Level 2",
+        "condition": {
+		"Items":["Artificial Lung", "Artificial Heart"]
+	},
+        "item_object": "it60_00_068",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item",
+	"item_position": [22.63, 2.33, 26.69]
+    },
+    {
+        "name": "In Crate",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [60.66, 2.28, 23.64]
+    },
+    {
+        "name": "On Medical Table",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [66.55, 3.2, 22.24]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [69.42, 2.54, 22.4]
+    },
+    {
+        "name": "By Whiteboard",
+        "region": "G CCC EW Security Manager's Office",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [65.3, 3.24, 25.54]
+    },
+    {
+        "name": "On Security Manager's Corpse",
+        "region": "G CCC EW Security Manager's Office",
+        "original_item": "ID Wristband Level 3",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"item_position": 
+    },
+    {
+        "name": "On Knife Zombie",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Hunting Knife",
+        "condition": {},
+        "item_object": "it10_20_005",
+        "parent_object": "DR0000",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": [55.24, 2.31, 17.46]
+    },
+    {
+        "name": "Crate in Patients Room",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [59.41, 2.28, 8.1]
+    },
+    {
+        "name": "On Table by Bed in Patients Room",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [55.85, 3.16, 9.4]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [61.7, 3.28, 6.95]
+    },
+    {
+        "name": "On Table in Room by Entrance",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [50.86, 3.28, 21.33]
+    },
+    {
+        "name": "On Bed",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "G CCC EW Isolation Ward Emily Defense",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [52.34, 3.02, 24.51]
+    },
+    {
+        "name": "Victory",
+        "region": "L CCC WW Attic",
+        "original_item": "Victory",
+        "condition": {},
+        "item_object": "",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [30.86, 14.05, 27.85],
+	"Randomized": 0
     },
 ]

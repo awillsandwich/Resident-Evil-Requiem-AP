@@ -175,6 +175,13 @@
     "progression": 1
   },
   {
+    "type": "Key",
+    "name": "Victory",
+    "decimal": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
     "type": "Recovery",
     "name": "Green Herb",
     "decimal": "",
@@ -332,6 +339,159 @@
     "count": 1,
     "progression": 0
   },
+  },
+  {
+    "type": "Weapon",
+    "name": "IMP Matilda",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+
+  },
+  {
+    "type": "Weapon",
+    "name": "Silencer 9",
+    "decimal": "",
+   "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "W-870 Police",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Marksman 1A",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Rifle Ammo"
+  },
+  {
+    "type":"Weapon",
+    "name": "Classic 70",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Rifle Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "990 TAC",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Alligator Snapper",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type":"Weapon",
+    "name": "Stiri REVO3 A1",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "RPG-7",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+  },
+  {
+    "type": "Weapon",
+    "name": "Redemption",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "12.7x55 Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Ghost Grudge",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo":"12.7x55 Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Clatter Carbine",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Machine Gun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "MSBG 500",
+    "decimal": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo":"Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Hatchet",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Mortal Edge",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV I",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV II",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV III",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Subweapon",
+    "name": "Hand Grenade",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Subweapon",
+    "name": "Stacked Hand Grenade",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
   {
     "type": "Ammo",
     "name": "Handgun Ammo",
@@ -346,6 +506,27 @@
     "count": 1,
     "progression": 0
   },
+  {
+    "type": "Ammo",
+    "name": "Shotgun Shells",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "Machine Gun Ammo",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+ },
+ {
+    "type": "Ammo",
+    "name": "Rifle Ammo",
+    "decimal": "",
+    "count": 1,
+    "progression": 0
+  }
   {
     "type": "Upgrade",
     "name": "Hip Pouch",

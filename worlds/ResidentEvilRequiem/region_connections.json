@@ -227,9 +227,14 @@
     },
     { 
         "from": "G CCC EW Security Manager's Office",
-        "to": "L CCC WW Attic",
+        "to": "G CCC EW Isolation Ward Emily Defense",
         "condition": {
 		"Items":["ID Wristband Level 3"]
 	}
+    },
+    { 
+        "from": "G CCC EW Isolation Ward Emily Defense",
+        "to": "L CCC WW Attic",
+        "condition": {}
     },
 ]
