@@ -23,7 +23,7 @@ class Data:
     item_name_groups = {}
 
     def load_data(character, scenario):
-        character_offsets = { 'jill': 0 }        
+        character_offsets = { 'grace': 0 }        
         scenario_offsets = { 'a': 0 }
         hardcore_offset = 400 # put all hardcore-only locations after standard location spots
         nightmare_offset = 600 # put all nightmare-only locations after hardcore location spots

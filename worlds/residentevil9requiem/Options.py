@@ -7,7 +7,7 @@ class Character(Choice):
     """Jill: Was almost a sandwich.
     """
     display_name = "Character to Play"
-    option_jill = 0
+    option_grace = 0
     default = 0
 
 class Scenario(Choice):

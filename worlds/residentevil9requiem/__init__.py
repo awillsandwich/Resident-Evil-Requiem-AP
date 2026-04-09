@@ -145,7 +145,7 @@ class ResidentEvil9Requiem(World):
                 set_rule(ent, lambda state, en=ent, conn=connect: self._has_items(state, conn["condition"].get("items", [])))
 
         # Uncomment the below to see a connection of the regions (and their locations) for any scenarios you're testing.
-        # visualize_regions(self.multiworld.get_region("Menu", self.player), "region_uml")
+        visualize_regions(self.multiworld.get_region("Menu", self.player), "region_uml")
 
         # Place victory and set the completion condition for having victory
         self.multiworld.get_location("Victory", self.player) \
