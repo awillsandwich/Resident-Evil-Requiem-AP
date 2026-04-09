@@ -4,17 +4,27 @@ import typing
 from typing import Dict, Any, TextIO
 from Utils import visualize_regions
 
-from BaseClasses import ItemClassification, Item, Location, Region, CollectionState
-from worlds.AutoWorld import World
+from BaseClasses import ItemClassification, Item, Location, Region, CollectionState, Tutorial
+from worlds.AutoWorld import World, WebWorld
 from ..generic.Rules import set_rule
 from Fill import fill_restrictive
+from Options import OptionError
 
 from .Data import Data
 from .Options import RE9Options
 
+Data.load_data('grace', 'a')
 
-Data.load_data()
-
+class UmbrellaNet(WebWorld):
+    theme = "partyTime"
+    tutorials = [Tutorial(
+        "Multiworld Setup Guide",
+        "A guide for setting up Resident Evil 3 Remake to be played in Archipelago.",
+        "English",
+        "re3r_en.md",
+        "setup/en",
+        ["TheRealSolidusSnake"]
+    )]
 
 class RE9Location(Location):
     def stack_names(*area_names):
@@ -25,15 +35,19 @@ class RE9Location(Location):
 
         return RE9Location.stack_names(*area_names)
 
-    def is_item_forbidden(item, location_data, current_item_rule):
-        return current_item_rule(item) and ('forbid_item' not in location_data or item.name not in location_data['forbid_item'])
+    def is_item_allowed(item, location_data, current_item_rule):
+        # Always allow items in the allow_item list
+        if 'allow_item' in location_data and item.name in location_data['allow_item']:
+            return True
 
+        # Otherwise, apply the current rule
+        return current_item_rule(item)
 
-class ResidentEvil9(World):
+class ResidentEvil9Requiem(World):
     """
-    'I think I want a second opinion.' - Leon S. Kennedy, probably
+    'Grace, I am your father.' - Zeno, probably
     """
-    game: str = "Resident Evil 9"
+    game: str = "Resident Evil 9 Requiem"
 
     data_version = 2
     required_client_version = (0, 0, 1)
@@ -52,27 +66,33 @@ class ResidentEvil9(World):
 
     options_dataclass = RE9Options
     options: RE9Options
+    web = UmbrellaNet()
 
     def generate_early(self): # check weapon randomization before locations and items are processed, so we can swap non-randomized items as well
         # start with the normal locations per player for pool, then overwrite with weapon rando if needed
-        self.source_locations[self.player] = self._get_locations() # id:loc combo
+        self.source_locations[self.player] = self._get_locations_for_scenario(self._get_character(), self._get_scenario()) # id:loc combo
         self.source_locations[self.player] = { 
-            RE7Location.stack_names(l['region'], l['name']): { **l, 'id': i } 
+            RE9Location.stack_names(l['region'], l['name']): { **l, 'id': i } 
                 for i, l in self.source_locations[self.player].items() 
         } # turn it into name:loc instead
 
     def create_regions(self): # and create locations
         scenario_locations = { l['id']: l for _, l in self.source_locations[self.player].items() }
-        scenario_regions = self._get_region_table()
+        scenario_regions = self._get_region_table_for_scenario(self._get_character(), self._get_scenario())
 
         regions = [
             Region(region['name'], self.player, self.multiworld) 
                 for region in scenario_regions
-        ]
-        
+]
+        added_regions = []
+
         for region in regions:
+            if region.name in added_regions:
+             continue
+
+            added_regions.append(region.name)
             region.locations = [
-                RE7Location(self.player, RE7Location.stack_names_not_victory(region.name, location['name']), location['id'], region) 
+                RE9Location(self.player, RE9Location.stack_names_not_victory(region.name, location['name']), location['id'], region) 
                     for _, location in scenario_locations.items() if location['region'] == region.name
             ]
             region_data = [scenario_region for scenario_region in scenario_regions if scenario_region['name'] == region.name][0]
@@ -87,39 +107,21 @@ class ResidentEvil9(World):
                 # if/elif here allows force_item + randomized=0, since a forced item is technically not randomized, but don't need to trigger both.
                 elif 'randomized' in location_data and location_data['randomized'] == 0:
                     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # if the coins are not randomized
+                # if location is not force_item'd or not not randomized, check for missable location option
+                # since  doesn't matter for force_item'd or not randomized locations
+                # These options severely limits where items can be..
+                elif self._format_option_text(self.options.allow_missable_locations) == 'False' and region_data['zone_id'] != 6:
+                    location.item_rule = lambda item: not item.advancement
+                elif self._format_option_text(self.options.allow_progression_in_nest) == 'False' and region_data['zone_id'] == 6:
+                    location.item_rule = lambda item: not item.advancement
 
-                if location_data.get("original_item") == "Antique Coin": # Manage Antique coins randomization
-                    handle_coin_randomization(self.options.randomize_coins, location, "Antique Coin")
-
-                elif self.options.start_at_chapter_2 and region_data["zone_id"] == 1: # Check if "start_at_chapter_2 option is activated"
-                    location.place_locked_item(self.create_item(location_data["original_item"]))
-
-                elif region_data["zone_id"] == 4 and "original_item" in location_data: # Manage Coins Cage Randomization
-                    handle_coin_randomization(self.options.randomize_coins_cages, location, location_data["original_item"])
-
-
-                # elif self.options.randomize_coins == 0 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # elif self.options.randomize_coins == 1 and "original_item" in location_data and location_data['original_item'] == "Antique Coin":
-                #     location.item_rule = lambda item: not item.advancement
-                # # if randomize_coins is 2, don't do anything (randomize as everything else)
-                # elif self.options.start_at_chapter_2 and region_data['zone_id'] == 1: 
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # if "start_at_chapter_2 option is de-activated, don't do anything (randomize as normal)
-                # elif self.options.randomize_coins_cages == 0 and region_data['zone_id'] == 4 :
-                #     location.place_locked_item(self.create_item(location_data["original_item"]))
-                # elif self.options.randomize_coins_cages == 1 and region_data['zone_id'] == 4 :
-                #     location.item_rule = lambda item: not item.advancement
-                # if randomize_coins_cage = 2, don't do anything (randomize as default)
-
-                if 'forbid_item' in location_data and location_data['forbid_item']:
+                if 'allow_item' in location_data and location_data['allow_item']:
                     current_item_rule = location.item_rule or None
 
                     if not current_item_rule:
                         current_item_rule = lambda x: True
 
-                    location.item_rule = lambda item, loc_data=location_data, cur_rule=current_item_rule: RE7Location.is_item_forbidden(item, loc_data, cur_rule)
+                    location.item_rule = lambda item, loc_data=location_data, cur_rule=current_item_rule: RE9Location.is_item_allowed(item, loc_data, cur_rule)
 
                 # now, set rules for the location access
                 if "condition" in location_data and "items" in location_data["condition"]:
@@ -127,7 +129,7 @@ class ResidentEvil9(World):
 
             self.multiworld.regions.append(region)
                 
-        for connect in self._get_region_connection_table():
+        for connect in self._get_region_connection_table_for_scenario(self._get_character(), self._get_scenario()):
             # skip connecting on a one-sided connection because this should not be reachable backwards (and should be reachable otherwise)
             if 'limitation' in connect and connect['limitation'] in ['ONE_SIDED_DOOR']:
                 continue
@@ -142,7 +144,7 @@ class ResidentEvil9(World):
             if "condition" in connect and "items" in connect["condition"]:
                 set_rule(ent, lambda state, en=ent, conn=connect: self._has_items(state, conn["condition"].get("items", [])))
 
-        # Uncomment the below to see a connection of the regions (and their locations).
+        # Uncomment the below to see a connection of the regions (and their locations) for any scenarios you're testing.
         # visualize_regions(self.multiworld.get_region("Menu", self.player), "region_uml")
 
         # Place victory and set the completion condition for having victory
@@ -151,13 +153,22 @@ class ResidentEvil9(World):
 
         self.multiworld.completion_condition[self.player] = lambda state: self._has_items(state, ['Victory'])
 
-    def create_items(self):
+    def create_items(self, to_item_names=None):
+    # Check for conflicting options at the start of the function
+        grenades_enabled = self._format_option_text(self.options.oops_all_grenades) == 'True'
+        handguns_enabled = self._format_option_text(self.options.oops_all_handguns) == 'True'
+
+        if grenades_enabled and handguns_enabled:
+            raise OptionError(f"{self.player_name}'s Resident Evil 9 Requiem"
+                              f" cannot have both Oops All options enabled at the same time, please choose one")
+
+        # Proceed with the rest of the function
         scenario_locations = self.source_locations[self.player]
 
         pool = [
-            self.create_item(item['name'] if item else None) for item in [
-                self.item_name_to_item[location['original_item']] if location.get('original_item') else None
-                    for _, location in scenario_locations.items()
+        self.create_item(item['name'] if item else None) for item in [
+            self.item_name_to_item[location['original_item']] if location.get('original_item') else None
+                for _, location in scenario_locations.items()
             ]
         ]
 
@@ -169,192 +180,151 @@ class ResidentEvil9(World):
                 pool.remove(filled_location.item)
 
         # check the starting hip pouches option and add as precollected, removing from pool and replacing with junk
-        # starting_hip_pouches = int(self.options.starting_hip_pouches)
+        starting_hip_pouches = int(self.options.starting_hip_pouches)
 
-        # if starting_hip_pouches > 0:
-        #     hip_pouches = [item for item in pool if item.name == 'Hip Pouch'] # 6 total in every campaign, I think
+        if starting_hip_pouches > 0:
+            hip_pouches = [item for item in pool if item.name == 'Hip Pouch'] # 6 total in every campaign, I think
 
-        #     # if the hip pouches option exceeds the number of hip pouches in the pool, reduce it to the number in the pool
-        #     if starting_hip_pouches > len(hip_pouches):
-        #         starting_hip_pouches = len(hip_pouches)
-        #         self.options.starting_hip_pouches.value = len(hip_pouches)
+            # if the hip pouches option exceeds the number of hip pouches in the pool, reduce it to the number in the pool
+            if starting_hip_pouches > len(hip_pouches):
+                starting_hip_pouches = len(hip_pouches)
+                self.options.starting_hip_pouches.value = len(hip_pouches)
 
-        #     for x in range(starting_hip_pouches):
-        #         self.multiworld.push_precollected(hip_pouches[x]) # starting inv
-        #         pool.remove(hip_pouches[x])
+            for x in range(starting_hip_pouches):
+                self.multiworld.push_precollected(hip_pouches[x]) # starting inv
+                pool.remove(hip_pouches[x])
 
-        # check the starting ink ribbons option and add as precollected, removing from pool and replacing with junk
-        # starting_tape = int(self.options.starting_tape)
-
-        # if self._format_option_text(self.options.difficulty) == 'Hardcore' and starting_tape > 0:
-        #     ink_ribbons = [item for item in pool if item.name == 'Ink Ribbon'] # 12+ total in every campaign, I think
-
-        #     # if the ink ribbons option exceeds the number of ink ribbons in the pool, reduce it to the number in the pool
-        #     if starting_tape > len(ink_ribbons):
-        #         starting_tape = len(ink_ribbons)
-        #         self.options.starting_tape.value = len(ink_ribbons)
-
-        #     for x in range(starting_tape):
-        #         self.multiworld.push_precollected(ink_ribbons[x]) # starting inv
-        #         pool.remove(ink_ribbons[x])
-
-        # check the bonus start option and add some heal items and ammo packs as precollected / starting items
-        if self._format_option_text(self.options.bonus_start) == 'True':
-            count_spray = 3
-            count_ammo = 4
-
-            for x in range(count_spray): self.multiworld.push_precollected(self.create_item('First Aid Med'))
-
-            if self.player in self.starting_weapon:
-                starting_weapon = self.starting_weapon[self.player]
-                starting_weapon_ammo = self.item_name_to_item[starting_weapon].get('ammo')
-                for x in range(count_ammo): self.multiworld.push_precollected(self.create_item(starting_weapon_ammo))
-            else:
-                for x in range(count_ammo): self.multiworld.push_precollected(self.create_item('Handgun Ammo'))
+        if self._format_option_text(self.options.bonus_start) == 'True' and self._format_option_text(self.options.oops_all_grenades) == 'True':
+            for x in range(3): self.multiworld.push_precollected(self.create_item('First Aid Spray'))
+            for x in range(3): self.multiworld.push_precollected(self.create_item('Hand Grenade'))
+            
+        if self._format_option_text(self.options.bonus_start) == 'True' and self._format_option_text(self.options.oops_all_grenades) == 'False':
+            for x in range(3): self.multiworld.push_precollected(self.create_item('First Aid Spray'))
+            for x in range(4): self.multiworld.push_precollected(self.create_item('Handgun Ammo'))
 
         # do all the "no X" options here so we have more empty spots to use for traps, if needed
-        if self._format_option_text(self.options.no_first_aid_med) == 'True':
-            pool = self._replace_pool_item_with(pool, 'First Aid Med', 'Ethan\'s Hand')
+        if self._format_option_text(self.options.no_first_aid_spray) == 'True':
+            pool = self._replace_pool_item_with(pool, 'First Aid Spray', 'Flash Grenade')
 
-        if self._format_option_text(self.options.no_herb) == 'True':
-            pool = self._replace_pool_item_with(pool, 'Herb', 'Ethan\'s Hand')
+        if self._format_option_text(self.options.no_green_herb) == 'True':
+            pool = self._replace_pool_item_with(pool, 'Green Herb', 'Flash Grenade')
 
-        if self._format_option_text(self.options.no_gunpowder) == 'True':
-            pool = self._replace_pool_item_with(pool, 'Gun Powder', 'Ethan\'s Leg')
+        if self._format_option_text(self.options.no_red_herb) == 'True':
+            pool = self._replace_pool_item_with(pool, 'Red Herb', 'Flash Grenade')
         
-        # if self._format_option_text(self.options.no_gunpowder) == 'True':
-        #     replaceables = set(item.name for item in pool if 'Gunpowder' in item.name)
-        #     less_useful_items = set(
-        #         item.name for item in pool 
-        #             if 'Boards' in item.name or 'Cassette' in item.name or ('Film' in item.name and 'Hiding Place' not in item.name) or item.name == 'Blue Herb'
-        #     )
+        if self._format_option_text(self.options.no_gunpowder) == 'True':
+            replaceables = set(item.name for item in pool if 'Gunpowder' in item.name or 'Explosive' in item.name)
+            less_useful_items = set(
+                item.name for item in pool 
+                    if item.name == 'Flash Grenade' or 'Herb' in item.name
+            )
 
-            # for from_item in replaceables:
-            #     to_item = self.random.choice(list(less_useful_items))
-            #     pool = self._replace_pool_item_with(pool, from_item, to_item)
+            for from_item in replaceables:
+                to_item = self.random.choice(list(less_useful_items))
+                pool = self._replace_pool_item_with(pool, from_item, to_item)
 
         # figure out which traps are enabled, then swap them in for low-priority items
         # do this before the "oops all X" options so we can make use of extra Handgun Ammo spots before they get replaced out
-        # traps = []
+        traps = []
 
-        # if self._format_option_text(self.options.add_damage_traps) == 'True':
-        #     for x in range(int(self.options.damage_trap_count)):
-        #         traps.append(self.create_item("Damage Trap"))
-
-        # if len(traps) > 0:
-        #     # use these spots for replacement first, since they're entirely non-essential
-        #     available_spots = [
-        #         item for item in pool 
-        #             if 'Boards' in item.name or 'Cassette' in item.name or ('Film' in item.name and 'Hiding Place' not in item.name)
-        #     ]
-        #     self.random.shuffle(available_spots)
-
-        #     # use these spots for replacement next, since they're lower priority but we don't want to use as many of them
-        #     # for gunpowder, only target the small / normal gunpowders
-        #     extra_spots = [
-        #         item for item in pool 
-        #             if 'Handgun Ammo' in item.name or item.name == 'Gunpowder'
-        #     ]
-        #     self.random.shuffle(extra_spots)
-               
-        #     for spot in available_spots:
-        #         if len(traps) == 0: break
-
-        #         trap_to_place = traps.pop()
-        #         pool.remove(spot)
-        #         pool.append(trap_to_place)
+        if self._format_option_text(self.options.add_damage_traps) == 'True':
+            for x in range(int(self.options.damage_trap_count)):
+                traps.append(self.create_item("Damage Trap"))
                 
-        #     for spot in extra_spots:
-        #         if len(traps) == 0: break
+        if len(traps) > 0:
+            # use these spots for replacement first, since they're entirely non-essential
+            available_spots = [
+                item for item in pool 
+                    if 'Explosive' in item.name or 'Gunpowder' in item.name
+            ]
+            self.random.shuffle(available_spots)
 
-        #         trap_to_place = traps.pop()
-        #         pool.remove(spot)
-        #         pool.append(trap_to_place)
+            # use these spots for replacement next, since they're lower priority
+            extra_spots = [
+                item for item in pool 
+                    if 'Herb' in item.name or 'Ammo' in item.name or 'Rounds' in item.name or 'Grenade' in item.name
+            ]
+            self.random.shuffle(extra_spots)
+               
+            for spot in available_spots:
+                if len(traps) == 0: break
 
-        # add extras for Clock Tower items or Medallions, if configured
+                trap_to_place = traps.pop()
+                pool.remove(spot)
+                pool.append(trap_to_place)
+                
+            for spot in extra_spots:
+                if len(traps) == 0: break
+
+                trap_to_place = traps.pop()
+                pool.remove(spot)
+                pool.append(trap_to_place)
+
+
+    # Add option for early/extras for Downtown items or Sewer Stuff, if configured
         # doing this before "oops all X" to make use of extra Handgun Ammo spots, too
-        # if self._format_option_text(self.options.extra_clock_tower_items) == 'True':
-        #     replaceables = [item for item in pool if 'Boards' in item.name or item.name == 'Handgun Ammo' or item.name == 'Large-Caliber Handgun Ammo']
+        if self._format_option_text(self.options.early_fire_hose) == 'True':
+            early_items = {}
+            early_items["Fire Hose"] = len([i for i in pool if i.name == "Fire Hose"])     
+
+            for item_name, item_qty in early_items.items():
+                if item_qty > 0:
+                    self.multiworld.early_items[self.player][item_name] = item_qty  
+
+        if self._format_option_text(self.options.extra_sewer_items) == 'True':
+            replaceables = [item for item in pool if item.name == 'Green Herb' or item.name == 'Handgun Ammo']
             
-        #     for x in range(3):
-        #         pool.remove(replaceables[x])
+            for x in range(2):
+                pool.remove(replaceables[x])
 
-        #     pool.append(self.create_item('Mechanic Jack Handle'))
-        #     pool.append(self.create_item('Small Gear'))
-        #     pool.append(self.create_item('Large Gear'))
+            pool.append(self.create_item('Battery Pack'))
+            pool.append(self.create_item('Kendo Gate Key'))
 
-        # if self._format_option_text(self.options.extra_medallions) == 'True':
-        #     replaceables = [item for item in pool if 'Boards' in item.name or item.name == 'Handgun Ammo' or item.name == 'Large-Caliber Handgun Ammo']
-            
-        #     for x in range(2):
-        #         pool.remove(replaceables[x])
-
-        #     pool.append(self.create_item('Lion Medallion'))
-        #     pool.append(self.create_item('Unicorn Medallion'))
-
-        #     # The A scenarios have Maiden forced to the Bolt Cutters vanilla location, which is guaranteed to be accessible.
-        #     # B scenarios have it randomized, so add a second randomized Maiden.
-        #     if self._get_scenario().lower() == 'b':
-        #         pool.remove(replaceables[2]) # remove the 3rd item to make room for a 3rd medallion
-        #         pool.append(self.create_item('Maiden Medallion'))
-
-        # if self._format_option_text(self.options.early_medallions) == 'True':
-        #     medallions = {i.name: len([i2 for i2 in pool if i2.name == i.name]) for i in pool if i.name in ['Lion Medallion', 'Unicorn Medallion', 'Maiden Medallion']}
-
-        #     for item_name, item_qty in medallions.items():
-        #         if item_qty > 0:
-        #             self.multiworld.early_items[self.player][item_name] = item_qty
-   
-
-        # check the "Oops! All ____" option. From the option description:
-        #     Enabling this swaps all weapons, weapon ammo, and subweapons to the selected weapon. 
+        # check the "Oops! All Grenades" option. From the option description:
+        #     Enabling this swaps all weapons, weapon ammo, and subweapons to Grenades. 
         #     (Except progression weapons, of course.)
-        oops_all_flag = self._get_oops_all_options_flag()
-        if oops_all_flag:            
-            oops_items_map = {
-                0x01: 'Chain Saw',
-                0x02: 'M19 Handgun',
-                0x04: 'Grenade Launcher',
-                0x08: 'Knife'
-            }
-
-            if oops_all_flag not in oops_items_map:
-                raise Exception("Cannot apply multiple 'Oops All' options. Please fix your yaml")
-            
-        #     # Leave the Anti-Tank Rocket on Tyrant alone so the player can finish the fight
-            items_to_replace = [ item for item in self.item_name_to_item.values() ]
+        if self._format_option_text(self.options.oops_all_grenades) == 'True':
+            items_to_replace = [
+                item for item in self.item_name_to_item.values() 
+                if 'type' in item and item['type'] in ['Weapon', 'Ammo', 'Crafting', 'Upgrade']
+            ]
+            to_item_name = 'Hand Grenade'
 
             for from_item in items_to_replace:
-                pool = self._replace_pool_item_with(pool, from_item['name'], oops_items_map[oops_all_flag])
+                pool = self._replace_pool_item_with(pool, from_item['name'], to_item_name)
+                
+        # check the "Oops! All Handguns" option. From the option description:
+        #     Enabling this swaps all weapons, weapon ammo, and subweapons to Handgun Ammo. 
+        #     (Except handguns, of course.)
+                
+        if self._format_option_text(self.options.oops_all_handguns) == 'True':
+        # Define the list of items to exclude from replacement
+            excluded_items = {
+                'G18',
+                'Extended Mag - G19',
+                'Moderator - G19'
+            }
 
-        #     # Add Knife back in (since its a progression item).
-            for item in pool:
-                if item.name == oops_items_map[oops_all_flag]:
-                    pool.remove(item)
-                    pool.append(self.create_item("Knife"))
-                    break
+            # Filter items to replace based on type and exclusion list
+            items_to_replace = [
+                item for item in self.item_name_to_item.values()
+                if (
+                    'type' in item and
+                    item['type'] in ['Weapon', 'Subweapon', 'Ammo', 'Crafting', 'Upgrade'] and
+                    item['name'] not in excluded_items
+                )
+            ]
+            to_item_name = 'Handgun Ammo'
 
+            for from_item in items_to_replace:
+                pool = self._replace_pool_item_with(pool, from_item['name'], to_item_name)
 
         # if the number of unfilled locations exceeds the count of the pool, fill the remainder of the pool with extra maybe helpful items
         missing_item_count = len(self.multiworld.get_unfilled_locations(self.player)) - len(pool)
 
         if missing_item_count > 0:
             for x in range(missing_item_count):
-                pool.append(self.create_item('Herb'))
-
-        # Make any items that result in a really quick BK either early or local items, so the BK time is reduced
-        early_items = {}       
-
-        for item_name, item_qty in early_items.items():
-            if item_qty > 0:
-                self.multiworld.early_items[self.player][item_name] = item_qty
-
-        local_items = {}       
-        #local_items["Fuse - Main Hall"] = len([i for i in pool if i.name == "Fuse - Main Hall"])
-
-        for item_name, item_qty in local_items.items():
-            if item_qty > 0:
-                self.options.local_items.value.add(item_name)
+                pool.append(self.create_item('Flash Grenade'))
 
         self.multiworld.itempool += pool
             
@@ -365,31 +335,36 @@ class ResidentEvil9(World):
 
         if item.get('progression', False):
             classification = ItemClassification.progression
-        elif item.get('type', None) not in ['Lore']:
+        elif item.get('type', None) not in ['Trap']:
             classification = ItemClassification.useful
-        else: # it's Lore
+        elif item.get('type', None) == 'Trap':
+            classification = ItemClassification.trap
+        else: # it's Filler
             classification = ItemClassification.filler
 
         new_item = Item(item['name'], classification, item['id'], player=self.player)
         return new_item
 
     def get_filler_item_name(self) -> str:
-        return "Hands"
+        return "Flash Grenade"
 
     def fill_slot_data(self) -> Dict[str, Any]:
         slot_data = {
             "apworld_version": self.apworld_release_version,
+            "character": self._get_character(),
+            "scenario": self._get_scenario(),
             "difficulty": self._get_difficulty(),
             "unlocked_typewriters": self._format_option_text(self.options.unlocked_typewriters).split(", "),
-            "starting_weapon": self._get_starting_weapon(),
             "ammo_pack_modifier": self._format_option_text(self.options.ammo_pack_modifier),
-            "death_link": self._format_option_text(self.options.death_link) == 'Yes' # why is this yes? lol Edit : NO IDEA
+            "damage_traps_can_kill": self._format_option_text(self.options.damage_traps_can_kill) == 'True',
+            "death_link": self._format_option_text(self.options.death_link) == 'Yes' # why is this yes? lol
         }
 
         return slot_data
     
     def write_spoiler_header(self, spoiler_handle: TextIO):
-        spoiler_handle.write(f"RE7_AP_World version: {self.apworld_release_version}\n")
+        spoiler_handle.write(f"RE9_AP_World version: {self.apworld_release_version}\n")
+        # print (self._output_items_and_locations_as_text()) - For printing item locations out during generation of a seed.
 
     def _has_items(self, state: CollectionState, item_names: list) -> bool:
         # if there are no item requirements, this location is open, they "have the items needed"
@@ -428,49 +403,82 @@ class ResidentEvil9(World):
     def _format_option_text(self, option) -> str:
         return re.sub(r'\w+\(', '', str(option)).rstrip(')')
     
-    def _get_locations(self) -> dict:
+    def _get_locations_for_scenario(self, character, scenario) -> dict:
         locations_pool = {
             loc['id']: loc for _, loc in self.location_name_to_location.items()
+                if loc['character'] == character and loc['scenario'] == scenario
         }
+        
+        if self._format_option_text(self.options.difficulty) == 'Inferno':
+            locations_pool = { id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore' and loc['difficulty'] != 'nightmare'}
 
-        # if the player chose hardcore, take out any matching standard difficulty locations
-        if self._format_option_text(self.options.difficulty) == 'Hardcore':
+            for inferno_loc in [loc for loc in locations_pool.values() if loc['difficulty'] == 'inferno']:
+                check_loc_region = re.sub(r'I\)$', ')', inferno_loc['region']) # take the Inferno off the region name
+                check_loc_name = inferno_loc['name']
+
+                # if there's a location with matching name and region, remove it
+                matching_locs = [id for id, loc in locations_pool.items() if loc['region'] == check_loc_region and loc['name'] == check_loc_name and loc['difficulty'] != 'inferno']
+
+                if len(matching_locs) > 0:
+                    del locations_pool[matching_locs[0]]
+
+        elif self._format_option_text(self.options.difficulty) == 'Nightmare':
+            locations_pool = { id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore' and loc['difficulty'] != 'inferno'}
+
+            for nightmare_loc in [loc for loc in locations_pool.values() if loc['difficulty'] == 'nightmare']:
+                check_loc_region = re.sub(r'N\)$', ')', nightmare_loc['region']) # take the Nightmare off the region name
+                check_loc_name = nightmare_loc['name']
+
+                # if there's a location with matching name and region, remove it
+                matching_locs = [id for id, loc in locations_pool.items() if loc['region'] == check_loc_region and loc['name'] == check_loc_name and loc['difficulty'] != 'nightmare']
+
+                if len(matching_locs) > 0:
+                    del locations_pool[matching_locs[0]]
+                        
+        elif self._format_option_text(self.options.difficulty) == 'Hardcore':
+            locations_pool = { id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'nightmare' and loc['difficulty'] != 'inferno'}
+
             for hardcore_loc in [loc for loc in locations_pool.values() if loc['difficulty'] == 'hardcore']:
                 check_loc_region = re.sub(r'H\)$', ')', hardcore_loc['region']) # take the Hardcore off the region name
                 check_loc_name = hardcore_loc['name']
 
-                # if there's a standard location with matching name and region, it's obsoleted in hardcore, remove it
-                standard_locs = [id for id, loc in locations_pool.items() if loc['region'] == check_loc_region and loc['name'] == check_loc_name and loc['difficulty'] != 'hardcore']
+                # if there's a location with matching name and region, remove it
+                matching_locs = [id for id, loc in locations_pool.items() if loc['region'] == check_loc_region and loc['name'] == check_loc_name and loc['difficulty'] != 'hardcore']
 
-                if len(standard_locs) > 0:
-                    del locations_pool[standard_locs[0]]
+                if len(matching_locs) > 0:
+                    del locations_pool[matching_locs[0]]
 
-        # else, the player is still playing standard, take out all of the matching hardcore difficulty locations
+        # else, the player is still playing standard, take out all of the matching difficulty locations
         else:
             locations_pool = {
-                id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore'
+                id: loc for id, loc in locations_pool.items() if loc['difficulty'] != 'hardcore' and loc['difficulty'] != 'nightmare' and loc['difficulty'] != 'inferno'
             }
-
-        # now that we've factored in hardcore swaps, remove any hardcore locations that were just there for removing unused standard ones
+     
+        # now that we've factored in swaps, remove any locations that were just there for removing unused standard ones
         locations_pool = { id: loc for id, loc in locations_pool.items() if 'remove' not in loc }
         
         return locations_pool
 
-    def _get_region_table(self) -> list:
+    def _get_region_table_for_scenario(self, character, scenario) -> list:
         return [
             region for region in Data.region_table 
+                if region['character'] == character and region['scenario'] == scenario
         ]
     
-    def _get_region_connection_table(self) -> list:
+    def _get_region_connection_table_for_scenario(self, character, scenario) -> list:
         return [
             conn for conn in Data.region_connections_table
+                if conn['character'] == character and conn['scenario'] == scenario
         ]
+    
+    def _get_character(self) -> str:
+        return self._format_option_text(self.options.character).lower()
+    
+    def _get_scenario(self) -> str:
+        return self._format_option_text(self.options.scenario).lower()
     
     def _get_difficulty(self) -> str:
         return self._format_option_text(self.options.difficulty).lower()
-    
-    def _get_starting_weapon(self) -> str:
-        return self.starting_weapon[self.player] if self.player in self.starting_weapon else None
     
     def _replace_pool_item_with(self, pool, from_item_name, to_item_name) -> list:
         items_to_remove = [item for item in pool if item.name == from_item_name]
@@ -483,3 +491,34 @@ class ResidentEvil9(World):
             pool.append(self.create_item(to_item_name))
 
         return pool
+
+    # def _output_items_and_locations_as_text(self):
+    #     my_locations = [
+    #         {
+    #             'id': loc.address,
+    #             'name': loc.name,
+    #             'original_item': self.location_name_to_location[loc.name]['original_item'] if loc.name != "Victory" else "(Game Complete)"
+    #         } for loc in self.multiworld.get_locations() if loc.player == self.player
+    #     ]
+
+    #     my_locations = set([
+    #         "{} | {} | {}".format(loc['id'], loc['name'], loc['original_item'])
+    #         for loc in my_locations
+    #     ])
+        
+    #     my_items = [
+    #         {
+    #             'id': item.code,
+    #             'name': item.name
+    #         } for item in self.multiworld.get_items() if item.player == self.player
+    #     ]
+
+    #     my_items = set([
+    #         "{} | {}".format(item['id'], item['name'])
+    #         for item in my_items
+    #     ])
+
+    #     print("\n".join(sorted(my_locations)))
+    #     print("\n".join(sorted(my_items)))
+
+    #     raise BaseException("Done with debug output.")

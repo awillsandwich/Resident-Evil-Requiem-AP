@@ -3,14 +3,30 @@ from Options import (Choice, OptionList, NamedRange,
     StartInventoryPool,
     PerGameCommonOptions, DeathLinkMixin)
 
+class Character(Choice):
+    """Jill: Was almost a sandwich.
+    """
+    display_name = "Character to Play"
+    option_jill = 0
+    default = 0
+
+class Scenario(Choice):
+    """A: Capcom did us dirty for this one.
+    """
+    display_name = "Scenario to Play"
+    option_a = 0
+    default = 0
+
 class Difficulty(Choice):
     """Standard: Most people should play on this.
-    Hardcore: Good luck, and thanks for testing deaths. Kappa
-    Assisted: ... Okay, fine. No judgment here. :)"""
+    Hardcore: Slightly tougher, but not by much. 
+    Nightmare: It actually rains zombies, Kappa
+    Inferno: Hope your name isn't Gohan, because you need to dodge... a lot"""
     display_name = "Difficulty to Play On"
     option_standard = 0
     option_hardcore = 1
-    option_assisted = 2
+    option_nightmare = 2
+    option_inferno = 3
     default = 0
 
 class UnlockedTypewriters(OptionList):
@@ -18,52 +34,53 @@ class UnlockedTypewriters(OptionList):
     """
     display_name = "Unlocked Typewriters"
 
-# class StartingHipPouches(NamedRange):
-#     """The number of hip pouches you want to start the game with, to a max of 6 (or 5 for Hardcore). 
-#     Any that you start with are taken out of the item pool and replaced with junk."""
-#     default = 0
-#     range_start = 0
-#     range_end = 6
-#     display_name = "Starting Hip Pouches"
-#     special_range_names = {
-#         "disabled": 0,
-#         "half": 3,
-#         "all": 6
-#     }
-
-# class StartingTape(NamedRange):
-#     """If playing Hardcore, the number of Tape you want to start the game with, to a max of XX.
-#     Any that you start with are taken out of the item pool and replaced with junk."""
-#     default = 0
-#     range_start = 0
-#     range_end = 12
-#     display_name = "Starting Tape"
-#     special_range_names = {
-#         "disabled": 0,
-#         "half": 6,
-#         "all": 12
-#     }
+class StartingHipPouches(Choice):
+    """The number of hip pouches you want to start the game with, to a max of 3. 
+    Any that you start with are taken out of the item pool and replaced with junk.
+    
+    Pockets: Equivalent of zero starting hip pouches. 
+    Fanny pack: Equivalent of one starting hip pouch. 
+    Purse: Equivalent of two starting hip pouches.
+    Backpack: Equivalent of three starting hip pouches."""
+    display_name = "Starting Hip Pouches"
+    option_pockets = 0
+    option_fanny_pack = 1
+    option_purse = 2
+    option_backpack = 3
+    default = 0
 
 class BonusStart(Choice):
     """Some players might want to start with a little help in the way of a few extra heal items and packs of ammo.
+    This will give you grenades instead of ammo if Oops All Grenades option is set.
 
-    False: (Default) Normal, don't start with extra heal items and packs of ammo.
+    False: Normal, don't start with extra heal items and packs of ammo.
     True: Start with those helper items."""
     display_name = "Bonus Start"
     option_false = 0
     option_true = 1
     default = 0
 
-class StartAtChapter2(Choice):
-    """With this, the first chapter is not randomized, so you will start "directly" to chapter 2 (just interact with the door bell at the start to start Chapter 2)
+class EarlyFireHose(Choice):
+    """Receiving Fire Hose late can lead to some intense BK.
+    This option will place it early to lower the odds of BK.
 
-    False: (Default) Normal, you start the game as normal
-    True: The first chapter is not randomized."""
-    display_name = "Bonus Start"
+    False: Normal, will place it anywhere in the world and you may be waiting a bit to progress.
+    True: Will place it in Sphere 1 of the world, and should prevent lengthy BK."""
+    display_name = "Early Fire Hose"
     option_false = 0
     option_true = 1
     default = 0
 
+class ExtraSewerItems(Choice):
+    """Not getting Battery Pack or Kendo Gate Key early can lead to the same situation.
+    This option adds an extra set of these items so the odds of BK are lower.
+
+    False: Normal, only 1 of each are in the item pool.
+    True: Now, 2 of each are in the item pool."""
+    display_name = "Extra Sewer Items"
+    option_false = 0
+    option_true = 1
+    default = 0
 
 class AllowMissableLocations(Choice):
     """Accidentally skipping item locations early can lead to softlocking as certain story triggers make it impossible to backtrack. 
@@ -80,76 +97,18 @@ class AllowMissableLocations(Choice):
     option_false = 0
     option_true = 1
     default = 0
-
-class RandomizeCoins(Choice):
-    """This option permit you to choose how you Randomize Antique Coins (but not what is unlocked with it)
-    None: (Default) Won't Randomize Antique Coins
-    This will make you able to find coins as default, and make that no item will be behind Coinss
     
-    No_progression: The coins will be randomized but won't contains Progression items.
+class AllowProgressionInNEST(Choice):
+    """While next to impossible to skip anything in NEST, it would certainly feel bad if someone's Morph Ball ended up there.
+    This option will completely remove progression from being at your end game, including the ten locations in Nemesis Final Fight. 
 
-    All : The coins will be randomized, and can contains anything.
+    False: (Default) Will place useful/junk items into NEST, the non-randomized locations will stay the same.
 
-    NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
-    display_name = "Randomized Coins"
-    option_none = 0
-    option_no_progression = 1
-    option_all = 2
+    True: Progression can be placed in NEST, remind everyone it was your fault when you are holding them hostage."""
+    display_name = "Allow Progression in NEST"
+    option_false = 0
+    option_true = 1
     default = 0
-
-class RandomizeCoinsCages(Choice):
-    """This option permit you to choose how you Randomize Coins Cages (Not Coins see randomize_coins for that)
-    None: (Default) Won't Randomize Randomize Coins Cages
-    The content of coins cage will be as default
-    
-    No_progression: The coins cage will be randomized but won't contains Progression items.
-
-    All : The coins cage will be randomized, and can contains anything.
-
-    NOTE - This option only affects *YOUR* game. Your progression can still be in someone else's if they have this option enabled."""
-    display_name = "Randomized Coins"
-    option_none = 0
-    option_no_progression = 1
-    option_all = 2
-    default = 0
-
-
-# class ExtraClockTowerItems(Choice):
-#     """The gears and jack handle required for Clock Tower can leave players BK for a while. 
-#     This option adds an extra set of these items so the odds of BK are lower.
-
-#     False: Normal, only 1 of each gear and the jack handle in the item pool.
-#     True: Now, 2 of each gear and 2 jack handles in the item pool."""
-#     display_name = "Extra Clock Tower Items"
-#     option_false = 0
-#     option_true = 1
-#     default = 1
-
-# class ExtraMedallions(Choice):
-#     """On your first visit to RPD, the medallions are required to leave. 
-#     If you spend too long waiting for these on average, this option will add extras of 2 medallions.
-
-#     False: Normal, only 1 of each RPD medallion in the item pool.
-#     True: Now, A scenarios will have 2 extra medallions (since Maiden is always at Fire Escape). 
-#           B scenarios will have 3 extra medallions since all are randomized."""
-#     display_name = "Extra Medallions"
-#     option_false = 0
-#     option_true = 1
-#     default = 1
-
-# class EarlyMedallions(Choice):
-#     """If you find yourself in BK a lot waiting on medallions to leave RPD, this option could be for you!
-
-#     This option will mark your RPD medallions as "early" items, meaning they will show up in the 1st sphere of someone's playthrough.
-#     Also, if you combine this early option with the extra option above, at least some of those extra medallions will *also* be in the 1st sphere.
-
-#     False: Normal, you get your medallions when you get them. Could be a while.
-#     True: Now, your medallions will likely all show up before you complete RPD 1's location checks."""
-#     display_name = "Early Medallions"
-#     option_false = 0
-#     option_true = 1
-#     default = 0
-
 
 class AmmoPackModifier(Choice):
     """This option, when set, will modify the quantity of ammo in each ammo pack. This can make the game easier or much, much harder.
@@ -178,52 +137,43 @@ class AmmoPackModifier(Choice):
     option_only_one = 6
     option_random_by_type = 7
     option_random_always = 8
-
-class OopsAllChainsaw(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Chainsaws. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Chainsaws"
-    option_false = 0
-    option_true = 1
-    default = 0
-
-class OopsAlHandgun(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Handgun. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Handgun"
-    option_false = 0
-    option_true = 1
-    default = 0
-
-class OopsAllGrenadeLauncher(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to GrenadeLauncher. 
-    (Except progression weapons, of course.)"""
+	
+class OopsAllGrenades(Choice):
+    """Enabling this swaps all weapons, ammo, subweapons, upgrades and explosive/gunpowder to Grenades.
+    (Except your starting weapon)"""
     display_name = "Oops! All Grenades"
     option_false = 0
     option_true = 1
     default = 0
-
-class OopsAllKnives(Choice):
-    """Enabling this swaps all weapons, weapon ammo, and subweapons to Knives. 
-    (Except progression weapons, of course.)"""
-    display_name = "Oops! All Knives"
+    
+class OopsAllHandguns(Choice):
+    """Enabling this swaps all weapons, ammo, subweapons, upgrades and explosive/gunpowder to Handgun Ammo.
+    (Except your starting weapon and it's upgrades, and the G18 Handgun)"""
+    display_name = "Oops! All Handguns"
     option_false = 0
     option_true = 1
     default = 0
-
-
-class NoFirstAidMed(Choice):
-    """Enabling this swaps all first aid Meds to filler or less useful items. 
+	
+class NoFirstAidSpray(Choice):
+    """Enabling this swaps all first aid sprays to filler or less useful items. 
     """
     display_name = "No First Aid Spray"
     option_false = 0
     option_true = 1
     default = 0
 
-class NoHerb(Choice):
-    """Enabling this swaps all herbs to filler or less useful items. 
+class NoGreenHerb(Choice):
+    """Enabling this swaps all green herbs to filler or less useful items. 
     """
-    display_name = "No Herbs"
+    display_name = "No Green Herbs"
+    option_false = 0
+    option_true = 1
+    default = 0
+
+class NoRedHerb(Choice):
+    """Enabling this swaps all red herbs to filler or less useful items. 
+    """
+    display_name = "No Red Herbs"
     option_false = 0
     option_true = 1
     default = 0
@@ -235,7 +185,45 @@ class NoGunpowder(Choice):
     option_false = 0
     option_true = 1
     default = 0
+    
+class AddDamageTraps(Choice):
+    """Enabling this adds traps to your game that, when received, deal 1 health state of damage to you. e.g., if you're "Fine", first one puts you in "Caution". 
+    By default, these traps cannot kill you, but the "Damage Traps Can Kill" option can make them lethal.
+    """
+    display_name = "Add Damage Traps"
+    option_false = 0
+    option_true = 1
+    default = 0
 
+class DamageTrapCount(NamedRange):
+    """While the "AddDamageTraps" option is enabled, this option specifies how many of this trap should be placed.
+    """
+    default = 10
+    range_start = 0
+    range_end = 30 
+    display_name = "Damage Trap Count"
+    special_range_names = {
+        "disabled": 0,
+        "half": 15,
+        "all": 30,
+    }
+
+class DamageTrapsCanKill(Choice):
+    """Enabling this while "Add Damage Traps" is enabled will allow the damage traps to drop your health state below "Danger". As in, they can kill you. 
+    """
+    display_name = "Damage Traps Can Kill"
+    option_false = 0
+    option_true = 1
+    default = 0
+    
+class AddParasiteTraps(Choice):
+    """Enabling this adds traps to your game that, when received, gives you parasites. e.g., when you get grabbed by deimos. 
+    These traps cannot kill you, but they will continuously damage you over time, similar to the Poison status in RE2R.
+    """
+    display_name = "Add Parasite Traps"
+    option_false = 0
+    option_true = 1
+    default = 0
 
 # making this mixin so we can keep actual game options separate from AP core options that we want enabled
 # not sure why this isn't a mixin in core atm, anyways
@@ -245,21 +233,23 @@ class StartInventoryFromPoolMixin:
 
 @dataclass
 class RE9Options(StartInventoryFromPoolMixin, DeathLinkMixin, PerGameCommonOptions):
+    character: Character
+    scenario: Scenario
     difficulty: Difficulty
     unlocked_typewriters: UnlockedTypewriters
-    # starting_hip_pouches: StartingHipPouches
-    # starting_tape: StartingTape
+    starting_hip_pouches: StartingHipPouches
     bonus_start: BonusStart
-    start_at_chapter_2: StartAtChapter2
-    randomize_coins: RandomizeCoins
-    randomize_coins_cages: RandomizeCoinsCages
-
-    # allow_progression_in_labs: AllowProgressionInLabs
+    early_fire_hose: EarlyFireHose
+    extra_sewer_items: ExtraSewerItems
+    allow_missable_locations: AllowMissableLocations
+    allow_progression_in_nest: AllowProgressionInNEST
     ammo_pack_modifier: AmmoPackModifier
-    oops_all_chainsaw: OopsAllChainsaw
-    oops_all_handgun: OopsAlHandgun
-    oops_all_grenade_launcher: OopsAllGrenadeLauncher
-    oops_all_knives: OopsAllKnives
-    no_first_aid_med: NoFirstAidMed
-    no_herb: NoHerb
+    oops_all_grenades: OopsAllGrenades
+    oops_all_handguns: OopsAllHandguns
+    no_first_aid_spray: NoFirstAidSpray
+    no_green_herb: NoGreenHerb
+    no_red_herb: NoRedHerb
     no_gunpowder: NoGunpowder
+    add_damage_traps: AddDamageTraps
+    damage_trap_count: DamageTrapCount
+    damage_traps_can_kill: DamageTrapsCanKill
