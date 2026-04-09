@@ -175,13 +175,6 @@
     "progression": 1
   },
   {
-    "type": "Key",
-    "name": "Victory",
-    "decimal": "",
-    "count": 1,
-    "progression": 1
-  },
-  {
     "type": "Recovery",
     "name": "Green Herb",
     "decimal": "",
@@ -562,4 +555,9 @@
     "count": 1,
     "progression": 0
   },
+  {
+    "name": "Victory",
+    "id": null,
+    "progression": 1
+  }
 ]

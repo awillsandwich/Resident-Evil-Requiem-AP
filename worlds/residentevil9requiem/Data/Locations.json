@@ -1381,9 +1381,9 @@
         "region": "L CCC WW Attic",
         "original_item": "Victory",
         "condition": {},
-        "item_object": "",
+        "item_object": null,
         "folder_path": "AppResident/Instance/Item",
 	"item_position": [30.86, 14.05, 27.85],
-	"Randomized": 0
+	"victory": true
     },
 ]
