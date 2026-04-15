@@ -1,0 +1,1389 @@
+[
+    {
+        "name": "Room 201 Key",
+        "region": "G RH",
+        "original_item": "Room 201 Key",
+        "condition": {},
+        "item_object": "ds043_Detail",
+        "folder_path": "AppResident/Instance/DetailSearch",
+	"Randomized": 0
+    },
+    {
+        "name": "Wirecutters",
+        "region": "G RH",
+        "original_item": "Wirecutters",
+        "condition": {},
+        "item_object": "it60_00_076",
+        "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
+	"Randomized": 0
+    },
+    {
+        "name": "Fire Escape Key",
+        "region": "G RH",
+        "original_item": "Fire Escape Key",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"Randomized": 0
+    },
+    {
+        "name": "On Supply Box",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [7.8, 0.89, 9.16]
+    },
+    {
+        "name": "Next to bush",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008_01",
+        "parent_object": "",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-47.91, 0.57, -9.05]
+    },
+    {
+        "name": "Back of Van",
+        "region": "L RH",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008_02",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-37.96, 0.65, 5.89]
+    },
+    {
+        "name": "Green Herb Back of Van",
+        "region": "L RH",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000",
+        "folder_path": "MainGame/Chap1_10/Chap1_10_Item",
+	"item_position": [-50.22, 0.5, -42.33]
+    },
+    {
+        "name": "Cherub Key",
+        "region": "G CCC Intro",
+        "original_item": "Cherub Key",
+        "condition": {},
+        "item_object": "it60_00_013",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [13.95, 7.99, 44.83],
+	"Randomized": 0
+    },
+    {
+        "name": "In Cupboard",
+        "region": "G CCC Intro Room 201",
+        "original_item": "Empty Bottle",
+        "condition": {},
+        "item_object": "it20_00_003",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [12.79, 8.44, 19.18]
+    },
+    {
+        "name": "Lighter",
+        "region": "G CCC Intro Room 201",
+        "original_item": "Lighter",
+        "condition": {},
+        "item_object": "it99_05_000",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [8.86, 8.48, 15.68],
+	"Randomized": 0
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC Intro",
+        "original_item": "Empty Bottle",
+        "condition": {
+		"Items": ["Lighter"]
+	},
+        "item_object": "it20_00_003",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [48.94, 8.11, 22.86]
+    },
+    {
+        "name": "On floor by Entrance",
+        "region": "G CCC Intro Nurses' Station",
+        "original_item": "Med Injector",
+        "condition": {},
+        "item_object": "it00_01_000",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [42.39, 7.29, 35.73]
+    },
+    {
+        "name": "On Top of Locker",
+        "region": "G CCC Intro Nurses' Station",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [47.51, 9.29, 28.81]
+    },
+    {
+        "name": "Inside Locker",
+        "region": "G CCC Intro Nurses' Station",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Item",
+	"item_position": [47.64, 8.5, 28.88]
+    },
+    {
+        "name": "Screwdriver",
+        "region": "G CCC Intro Nurses' Station",
+        "original_item": "Screwdriver",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "ds028_Detail",
+        "folder_path": "AppResident/Instance/DetailSearch",
+	"item_position": [51.35, -490.1, 33.64],
+	"Randomized": 0
+    },
+    {
+        "name": "Fuse",
+        "region": "G CCC Intro Room 201",
+        "original_item": "Fuse",
+        "condition": {
+		"Items": ["Screwdriver"]
+	},
+        "item_object": "sm80_214_00",
+        "parent_object": "Gm13_005",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Gimmick/Chap3_01_Gimmick_Unique/st30_003_Gimmick_Unique",
+	"item_position": [8.47, 8.9, 15.16],
+	"Randomized": 0
+    },
+    {
+        "name": "On Wheelchair Behind Entrance",
+        "region": "L CCC Intro Rehabilitation Ward",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "folder_path": "Folder Path: MainGame/Chap3_10/Chap3_10_Item",
+	"item_position": [7.85, 2.3, 49.15]
+    },
+    {
+        "name": "Cabinet in Main room",
+        "region": "L CCC Intro Rehabilitation Ward",
+        "original_item": "Mixed Herb G+G",
+        "condition": {},
+        "item_object": "it00_00_100",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_10/Chap3_10_Item",
+	"item_position": [31.82, 3.99, 67.24]
+    },
+    {
+        "name": "Crate in Main Room",
+        "region": "L CCC Intro Rehabilitation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [43.1, 1.78, 72.06]
+    },
+    {
+        "name": "Crate in Side Room",
+        "region": "L CCC Intro Rehabilitation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [52.81, 1.78, 68.75]
+    },
+    {
+        "name": "Cabinet in Side Room",
+        "region": "L CCC Intro Rehabilitation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_10/Chap3_10_Item",
+	"item_position": [51.98, 3.22, 71.86]
+    },
+    {
+        "name": "Grace Starting Weapon",
+        "region": "G CCC Central Hall",
+        "original_item": "Requiem",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"item_position": 
+    },
+    {
+        "name": "By Statue",
+        "region": "G CCC Central Hall",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-6.97, 8.28, 45.03]
+    },
+    {
+        "name": "On Floor",
+        "region": "G CCC Guard Office",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-10.4, 1.78, 45.48]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC Guard Office",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-5.38, 2.64, 43.85]
+    },
+    {
+        "name": "On Floor by Corpse",
+        "region": "G CCC Medication Room",
+        "original_item": "West Wing Keycard",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"item_position": 
+    },
+    {
+        "name": "Chef",
+        "region": "G CCC WW Kitchen",
+        "original_item": "Pantry Key",
+        "condition": {},
+        "item_object": "it60_00_069",
+        "parent_object": "ItemSpawner_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [-38.11, 2.29, 29.84]
+    },
+    {
+        "name": "On Shelf",
+        "region": "G CCC WW Pantry",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002_02",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [-42.25, 3.61, 34.05]
+    },
+    {
+        "name": "Crate",
+        "region": "G CCC WW Pantry",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-44.8, 2.29, 32.68]
+    },
+    {
+        "name": "In Case",
+        "region": "G CCC WW Pantry",
+        "original_item": "12/7x55 Ammo",
+        "condition": {},
+        "item_object": "it40_02_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-42.62, 3.27, 28.66]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Kitchen Hallway",
+        "original_item": "Makeshift Knife",
+        "condition": {},
+        "item_object": "it10_20_003",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-41.96, 3.18, 26.0]
+    },
+    {
+        "name": "On Floor by One Way Door",
+        "region": "G CCC WW Kitchen Hallway",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/CASUAL_MODERN_ONLY",
+	"item_position": [-15.83, 2.29, 28.42]
+    },
+    {
+        "name": "By Sink",
+        "region": "G CCC WW Restroom",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-35.18, 3.2, 16.11]
+    },
+    {
+        "name": "Dropped From Zombie",
+        "region": "G CCC WW Dining Room",
+        "original_item": "Hunting Knife",
+        "condition": {},
+        "item_object": "it10_20_005",
+        "parent_object": "DR0000",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": 
+    },
+    {
+        "name": "On Floor",
+        "region": "G CCC WW Dining Room",
+        "original_item": "B934",
+        "condition": {},
+        "item_object": "it10_00_003",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [-15.73, 2.29, 14.18]
+    },
+    {
+        "name": "On Shelf",
+        "region": "G CCC WW Dining Room",
+        "original_item": "Empty Bottle",
+        "condition": {},
+        "item_object": "it20_00_003",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-21.29, 3.57, 14.64]
+    },
+    {
+        "name": "In Locker",
+        "region": "G CCC WW Filing Room",
+        "original_item": "Makeshift Knife",
+        "condition": {},
+        "item_object": "it10_20_003",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/...............",
+	"item_position": [-23.41, 3.5, 12.9]
+    },
+    {
+        "name": "On Desk",
+        "region": "G CCC WW Filing Room",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-23.77, 3.14, 15.21]
+    },
+    {
+        "name": "On Table by Lamp",
+        "region": "G CCC WW Dining Room Hallway",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-38.68, 3.18, 8.47]
+    },
+    {
+        "name": "Crate Under the Stairs",
+        "region": "G CCC WW Dining Room Hallway",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "parent_object": "ItemSpawner...",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/...............",
+	"item_position": [-46.71, 2.28, 7.14]
+    },
+    {
+        "name": "Next to Couch",
+        "region": "G CCC WW 3F",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-49.31, 12.3, 10.46]
+    },
+    {
+        "name": "On Table by Lamp",
+        "region": "G CCC WW 3F",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-51.0, 13.19, 20.99]
+    },
+    {
+        "name": "On Piano",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-27.96, 7.97, 15.93]
+    },
+    {
+        "name": "Singer",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/.....................",
+	"item_position": [-23.89, 7.28, 7.62]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-27.26, 8.08, 6.36]
+    },
+    {
+        "name": "On Bar",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "S&S M232",
+        "condition": {},
+        "item_object": "it10_00_001",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [-32.24, 8.14, 11.01]
+    },
+    {
+        "name": "In Vase",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-22.12, 7.28, 17.68]
+    },
+    {
+        "name": "In Safe 1",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [-34.17, 8.43, 7.52]
+    },
+    {
+        "name": "In Safe 2",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [-34.29, 8.43, 7.52]
+    },
+    {
+        "name": "In Safe 3",
+        "region": "G CCC WW Bar & Lounge",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [-34.22, 8.43, 7.62]
+    },
+    {
+        "name": "On Table by Lamp",
+        "region": "G CCC WW Gallery",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-19.41, 8.04, 25.81]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Gallery",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-14.69, 8.08, 25.5]
+    },
+    {
+        "name": "On Table by Lamp",
+        "region": "G CCC WW Chairman's Office",
+        "original_item": "Unicorn Trinket Box",
+        "condition": {},
+        "item_object": "it60_00_077",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/Chap3_02_Item_00/.....................",
+	"item_position": [-16.89, 8.19, 32.21]
+    },
+    {
+        "name": "On Desk",
+        "region": "G CCC WW Chairman's Office",
+        "original_item": "Pencil",
+        "condition": {},
+        "item_object": "it60_00_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [-20.94, 8.06, 43.54]
+    },
+    {
+        "name": "Moon Quartz Container",
+        "region": "G CCC WW Chairman's Office",
+        "original_item": "Moon Quartz",
+        "condition": {},
+        "item_object": "it60_00_049",
+        "parent_object": "sm80_237_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_047_Gimmick_Common",
+	"item_position": [-23.98, 8.78, 38.31]
+    },
+    {
+        "name": "On Roulette Table",
+        "region": "G CCC WW Parlor",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-20.57, 3.13, 40.15]
+    },
+    {
+        "name": "By Bookshelf",
+        "region": "G CCC WW Parlor",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [-26.32, 3.29, 33.54]
+    },
+    {
+        "name": "Under Table",
+        "region": "G CCC WW Parlor",
+        "original_item": "East Wing Keycard",
+        "condition": {},
+        "item_object": "",
+        "folder_path": "AppResident/Instance/DetailSearch",
+	"item_position": [-23.69, -497.01, 32.4]
+    },
+    {
+        "name": "Front of Bar",
+        "region": "G CCC WW Parlor",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-19.8, 3.39, 33.46]
+    },
+    {
+        "name": "Back of Bar",
+        "region": "G CCC WW Parlor",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd",
+	"item_position": [-19.28, 3.14, 32.03]
+    },
+    {
+        "name": "Vase By Bar",
+        "region": "G CCC WW Parlor",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-18.93, 2.28, 31.69]
+    },
+    {
+        "name": "Coin Locker 1",
+        "region": "G CCC WW Parlor",
+        "original_item": "Hip Pouch",
+        "condition": {
+		"Items":["Antique Coin", "Antique Coin", "Antique Coin]
+	},
+        "item_object": "it99_01_000",
+        "parent_object": "sm80_285_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_031_Gimmick_Common/CoinLocker",
+	"item_position": [-25.44, 3.43, 39.35]
+    },
+    {
+        "name": "Coin Locker 2",
+        "region": "G CCC WW Parlor",
+        "original_item": "Stabilizer",
+        "condition": {
+		"Items":["Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin"]
+	},
+        "item_object": "it99_02_004",
+        "parent_object": "sm80_285_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_031_Gimmick_Common/CoinLocker",
+	"item_position": [-25.5, 3.5, 38.72]
+    },
+    {
+        "name": "Coin Locker 3",
+        "region": "G CCC WW Parlor",
+        "original_item": "Steroids",
+        "condition": {
+		"Items":["Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", Antique Coin", "Antique Coin", "Antique Coin"]
+	},
+        "item_object": "it99_02_002",
+        "parent_object": "sm80_285_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_031_Gimmick_Common/CoinLocker",
+	"item_position": [-25.5, 3.52, 37.47]
+    },
+    {
+        "name": "Coin Locker 4",
+        "region": "G CCC WW Parlor",
+        "original_item": "Override Manual",
+        "condition": {
+		"Items":["Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coins", "Antique Coin", "Antique Coin", "Antique Coin", "Antique Coin"]
+	},
+        "item_object": "it99_50_011",
+        "parent_object": "sm80_285_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_031_Gimmick_Common/CoinLocker",
+	"item_position": [-25.5, 3.51, 36.81]
+    },
+    {
+        "name": "End of Hallway",
+        "region": "G CCC EW Lobby",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/............",
+	"item_position": [14.0, 2.28, 21.01]
+    },
+    {
+        "name": "Inside Safe 1",
+        "region": "G CCC EW Examination Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [25.55, 3.3, 30.95]
+    },
+    {
+        "name": "Inside Safe 2",
+        "region": "G CCC EW Examination Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [25.56, 3.3, 31.06]
+    },
+    {
+        "name": "Inside Safe 3",
+        "region": "G CCC EW Examination Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/......",
+	"item_position": [25.66, 3.3, 31.01]
+    },
+    {
+        "name": "On Desk",
+        "region": "G CCC EW Examination Room",
+        "original_item": "Hemolytic Injector",
+        "condition": {},
+        "item_object": "it99_50_001",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/............",
+	"item_position": [26.94, 3.14, 24.96]
+    },
+    {
+        "name": "Inside Locker",
+        "region": "G CCC EW Blood Lab",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+	"item_position": [43.13, 3.5, 16.13]
+    },
+    {
+        "name": "On middle Table",
+        "region": "G CCC EW Blood Lab",
+        "original_item": "Blood Collector",
+        "condition": {},
+        "item_object": "it99_06_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [40.07, 3.13, 21.34]
+    },
+    {
+        "name": "By Blood Analyzer",
+        "region": "G CCC EW Blood Lab",
+        "original_item": "Blood Specimen Denatured",
+        "condition": {},
+        "item_object": "it60_00_064",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [36.31, 3.12, 21.7]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [32.73, 3.07, 39.68]
+    },
+    {
+        "name": "Inside Vase 1",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [28.71, 2.28, 35.04]
+    },
+    {
+        "name": "Inside Vase 2",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Handun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [20.92, 2.28, 34.73]
+    },
+    {
+        "name": "On Patient Zombie",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "parent_object": "DR0017",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": [24.09, 2.31, 42.48]
+    },
+    {
+        "name": "In Draw",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+	"item_position": [22.63, 2.86, 42.54]
+    },
+    {
+        "name": "Inside Safe 1",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [20.56, 3.46, 41.27]
+    },
+    {
+        "name": "Inside Safe 2",
+        "region": "G CCC EW Waiting Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [20.58, 3.46, 41.13]
+    },
+    {
+        "name": "On Doctor Zombie",
+        "region": "G CCC EW 1F Hallway",
+        "original_item": "Med Injector",
+        "condition": {},
+        "item_object": "it00_01_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/.....................1",
+	"item_position": [38.25, 2.28, 40.5]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW 1F Hallway",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [48.59, 2.75, 41.62]
+    },
+    {
+        "name": "On Dead Corpse",
+        "region": "G CCC EW 2F Hallway",
+        "original_item": "ID Wristband Level 1",
+        "condition": {},
+        "item_object": "it60_00_055",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [43.99, 7.31, 48.66]
+    },
+    {
+        "name": "Chunk",
+        "region": "G CCC EW 2F Hallway",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/........./CLASSIC_INSANITY_ONLY",
+	"item_position": [53.97, 7.28, 50.11]
+    },
+    {
+        "name": "In Crate",
+        "region": "G CCC EW 2F Hallway",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "parent_object": "",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [45.51, 7.28, 40.21]
+    },
+    {
+        "name": "In Locker",
+        "region": "G CCC EW 2F Hallway",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+	"item_position": [46.53, 8.5, 43.98]
+    },
+    {
+        "name": "In Vase",
+        "region": "G CCC EW Lead Researcher's Office",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+	"item_position": [56.33, 7.33, 51.89]
+    },
+    {
+        "name": "On table",
+        "region": "G CCC EW Lead Researcher's Office",
+        "original_item": "Lockpick",
+        "condition": {},
+        "item_object": "it99_50_006",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [56.56, 8.18, 57.69]
+    },
+    {
+        "name": "On top of Drawer",
+        "region": "G CCC EW Lead Researcher's Office",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/............",
+	"item_position": [43.58, 8.75, 60.39]
+    },
+    {
+        "name": "Inside Sun Quartz Lock Box 1",
+        "region": "G CCC EW Lead Researcher's Office",
+        "original_item": "Sun Quartz",
+        "condition": {
+		"Items":["Corrosive Acid"]
+	},
+        "item_object": "it60_00_048",
+        "parent_object": "sm80_238_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_066_Gimmick_Common",
+	"item_position": [50.89, 8.79, 60.84]
+    },
+    {
+        "name": "Inside Sun Quartz Lock Box 2",
+        "region": "G CCC EW Lead Researcher's Office",
+        "original_item": "Leatherbound Notebook",
+        "condition": {
+		"Items":["Corrosive Acid"]
+	},
+        "item_object": "it60_00_122",
+        "parent_object": "sm80_238_00",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_066_Gimmick_Common",
+	"item_position": [50.82, 8.64, 60.68]
+    },
+    {
+        "name": "On Desk",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [31.06, 8.14, 39.23]
+    },
+    {
+        "name": "On Doctor Zombie",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Med Injector",
+        "condition": {},
+        "item_object": "it00_01_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/.....................1",
+	"item_position": [33.16, 7.28, 43.81]
+    },
+    {
+        "name": "On Knife Zombie",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Hunting Knife",
+        "condition": {},
+        "item_object": "it10_20_005",
+        "parent_object": "DR0000",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": [27.15, 7.31, 46.09]
+    },
+    {
+        "name": "In Crate 1",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [32.93, 7.28, 46.69]
+    },
+    {
+        "name": "In Crate 2",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [33.55, 7.28, 47.95]
+    },
+    {
+        "name": "On Singer Zombie",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Antique Coin",
+        "condition": {},
+        "item_object": "it99_50_005",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/.....................1",
+	"item_position": [32.74, 7.28, 53.52]
+    },
+    {
+        "name": "By Medical Cabinet",
+        "region": "G CCC EW Conference Room",
+        "original_item": "Corrosive Acid",
+        "condition": {},
+        "item_object": "it60_00_063",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [28.14, 8.23, 50.44]
+    },
+    {
+        "name": "In Cabinet",
+        "region": "G CCC EW Blood Lab Closet",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [46.38, 3.48, 18.93]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Blood Lab Closet",
+        "original_item": "Blood Specimen Reversible",
+        "condition": {},
+        "item_object": "it60_00_067",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [47.69, 3.26, 19.25]
+    },
+    {
+        "name": "On Desk",
+        "region": "G CCC EW Blood Lab Closet",
+        "original_item": "Empty Injector",
+        "condition": {},
+        "item_object": "it50_00_018",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [48.0, 3.24, 20.79]
+    },
+    {
+        "name": "On Shelf",
+        "region": "G CCC EW Blood Lab Closet",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002_02",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [47.8, 3.91, 21.74]
+    },
+    {
+        "name": "On Floor",
+        "region": "G CCC EW Blood Lab Closet",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [48.23, 2.28, 25.58]
+    },
+    {
+        "name": "On Medical Cabinet",
+        "region": "G CCC EW Waiting Room Closet",
+        "original_item": "Blood Specimen Converged",
+        "condition": {},
+        "item_object": "it60_00_065",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
+	"item_position": [30.12, 3.41, 48.41]
+    },
+    {
+        "name": "On Table 1",
+        "region": "G CCC EW Waiting Room Closet",
+        "original_item": "Hangun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/............",
+	"item_position": [27.99, 3.19, 48.26]
+    },
+    {
+        "name": "On Table 2",
+        "region": "G CCC EW Waiting Room Closet",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002_02",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+	"item_position": [27.02, 3.2, 48.42]
+    },
+    {
+        "name": "In Case",
+        "region": "G CCC EW Waiting Room Closet",
+        "original_item": "12.7x55mm Ammo",
+        "condition": {},
+        "item_object": "it40_02_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [26.04, 3.32, 48.39]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Custodian's Office Hallway",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-41.45, 3.28, 42.1]
+    },
+    {
+        "name": "In Crate Under Stairs",
+        "region": "G CCC WW Custodian's Office Hallway",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "parent_object": "AppResident/Instance/Item",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-43.92, 2.29, 51.19]
+    },
+    {
+        "name": "In Crate Top of Stairs 1",
+        "region": "G CCC WW Custodian's Office Hallway",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-44.17, 9.79, 54.95]
+    },
+    {
+        "name": "In Crate Top of Stairs 2",
+        "region": "G CCC WW Custodian's Office Hallway",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd",
+	"item_position": [-44.14, 9.79, 55.65]
+    },
+    {
+        "name": "By Typewriter",
+        "region": "G CCC WW Custodian's Office",
+        "original_item": "Wrench",
+        "condition": {},
+        "item_object": "it60_00_074",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/Chap3_02_Item_00/.....................",
+	"item_position": [-37.44, 3.17, 45.68]
+    },
+    {
+        "name": "By Cabinet",
+        "region": "G CCC WW Custodian's Office",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002_02",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [-36.07, 3.25, 51.71]
+    },
+    {
+        "name": "In Locker",
+        "region": "G CCC WW Custodian's Office",
+        "original_item": "Lockpick",
+        "condition": {},
+        "item_object": "it99_50_006",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd",
+	"item_position": [-34.27, 3.5, 48.03]
+    },
+    {
+        "name": "In crate",
+        "region": "G CCC WW Garage",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd",
+	"item_position": [-68.03, 1.59, 69.02]
+    },
+    {
+        "name": "Back of Truck",
+        "region": "G CCC WW Garage",
+        "original_item": "Organ Transport Box",
+        "condition": {},
+        "item_object": "it60_00_073",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/Chap3_02_Item_00/.....................",
+	"item_position": [-61.51, 2.48, 68.83]
+    },
+    {
+        "name": "In Crate After Bulldozer 1",
+        "region": "G CCC WW Garage",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-41.5, 1.59, 80.39]
+    },
+    {
+        "name": "In Crate After Bulldozer 2",
+        "region": "G CCC WW Garage",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-42.06, 1.59, 80.37]
+    },
+    {
+        "name": "On Desk 1",
+        "region": "G CCC WW Office",
+        "original_item": "Empty Bottle",
+        "condition": {},
+        "item_object": "it20_00_003",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-38.72, 8.08, 33.33]
+    },
+    {
+        "name": "On Desk 2",
+        "region": "G CCC WW Office",
+        "original_item": "Lockpick",
+        "condition": {},
+        "item_object": "it99_50_006",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-42.38, 8.08, 29.38]
+    },
+    {
+        "name": "In Crate",
+        "region": "G CCC WW Office",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-39.22, 7.28, 29.86]
+    },
+    {
+        "name": "On Patient Zombie",
+        "region": "G CCC WW Records Room",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "parent_object": "DR0017",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": [-31.14, 7.3, 31.81]
+    },
+    {
+        "name": "On Shelf",
+        "region": "G CCC WW Records Room",
+        "original_item": "Empty Injector",
+        "condition": {},
+        "item_object": "it50_00_018",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-28.49, 8.48, 31.16]
+    },
+    {
+        "name": "In Locker",
+        "region": "G CCC WW Records Room",
+        "original_item": "Makeshift Knife",
+        "condition": {},
+        "item_object": "it10_20_003",
+        "parent_object": "ItemSpawner_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd",
+	"item_position": [-32.63, 8.49, 30.95]
+    },
+    {
+        "name": "In Crate",
+        "region": "G CCC WW Records Room",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-28.03, 7.28, 39.04]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Kitchenette",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-40.34, 8.09, 22.94]
+    },
+    {
+        "name": "On Table 1",
+        "region": "G CCC WW Filing Room Closet",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-31.43, 3.3, 18.36]
+    },
+    {
+        "name": "On Table 2",
+        "region": "G CCC WW Filing Room Closet",
+        "original_item": "Hip Pouch",
+        "condition": {},
+        "item_object": "it99_01_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.........",
+	"item_position": [-31.56, 3.28, 19.15]
+    },
+    {
+        "name": "On Rack",
+        "region": "G CCC WW Cold Storage",
+        "original_item": "Artificial Heart",
+        "condition": {},
+        "item_object": "it60_00_051",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/Chap3_02_Item_00/.....................",
+	"item_position": [-61.59, 2.88, 9.5]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC WW Cold Storage",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002_02",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [-58.71, 2.19, 7.95]
+    },
+    {
+        "name": "In Crate 1",
+        "region": "G CCC WW Cold Storage",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-63.91, 1.24, 5.53]
+    },
+    {
+        "name": "In Crate 2",
+        "region": "G CCC WW Cold Storage",
+        "original_item": "Hangun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [-63.29, 1.24, 5.49]
+    },
+    {
+        "name": "On Shelf",
+        "region": "G CCC WW Cold Storage",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [-65.15, 2.29, 11.39]
+    },
+    {
+        "name": "ID Wristband Level 2",
+        "region": "G CCC EW Examination Room",
+        "original_item": "ID Wristband Level 2",
+        "condition": {
+		"Items":["Artificial Lung", "Artificial Heart"]
+	},
+        "item_object": "it60_00_068",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item",
+	"item_position": [22.63, 2.33, 26.69]
+    },
+    {
+        "name": "In Crate",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [60.66, 2.28, 23.64]
+    },
+    {
+        "name": "On Medical Table",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [66.55, 3.2, 22.24]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000_01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/...............",
+	"item_position": [69.42, 2.54, 22.4]
+    },
+    {
+        "name": "By Whiteboard",
+        "region": "G CCC EW Security Manager's Office",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [65.3, 3.24, 25.54]
+    },
+    {
+        "name": "On Security Manager's Corpse",
+        "region": "G CCC EW Security Manager's Office",
+        "original_item": "ID Wristband Level 3",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+	"item_position": 
+    },
+    {
+        "name": "On Knife Zombie",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Hunting Knife",
+        "condition": {},
+        "item_object": "it10_20_005",
+        "parent_object": "DR0000",
+        "folder_path": "AppResident/Instance/DropResource",
+	"item_position": [55.24, 2.31, 17.46]
+    },
+    {
+        "name": "Crate in Patients Room",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [59.41, 2.28, 8.1]
+    },
+    {
+        "name": "On Table by Bed in Patients Room",
+        "region": "G CCC EW Isolation Ward",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [55.85, 3.16, 9.4]
+    },
+    {
+        "name": "On Table",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [61.7, 3.28, 6.95]
+    },
+    {
+        "name": "On Table in Room by Entrance",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [50.86, 3.28, 21.33]
+    },
+    {
+        "name": "On Bed",
+        "region": "G CCC EW Isolation Ward Emily Defense",
+        "original_item": "Transfusion Bag",
+        "condition": {},
+        "item_object": "it99_06_004",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/2nd....../...2nd/............",
+	"item_position": [52.34, 3.02, 24.51]
+    },
+    {
+        "name": "Victory",
+        "region": "L CCC WW Attic",
+        "original_item": "Victory",
+        "condition": {},
+        "item_object": null,
+        "folder_path": "AppResident/Instance/Item",
+	"item_position": [30.86, 14.05, 27.85],
+	"victory": true
+    }
+]

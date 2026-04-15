@@ -1,0 +1,562 @@
+[
+  {
+    "type": "Key",
+    "name": "Room 201 Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Wirecutters",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Fire Escape Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Cherub Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Lighter",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Antique Coin",
+    "id": "",
+    "count": 23,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Screwdriver",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Fuse",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "West Wing Key Card",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Pantry Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Unicorn Trinket Box",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Pencil",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Moon Quartz",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "East Wing Key Card",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 1",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Lockpick",
+    "id": "",
+    "count": 5,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Corrosive Acid",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Wrench",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Sun Quartz",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Leatherbound Notbook",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Organ Transpot Box",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Artificial Heart",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Artificial Heart",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 2",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "ID Wristband Level 3",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Recovery",
+    "name": "Green Herb",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Med Injector",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Mixed Herb G+G",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Recovery",
+    "name": "Mixed Herb G+G+G",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Collector",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Denatured",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Converged",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Blood Specimen Reversible",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Scrap",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Rare Metal",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Transfusion Bag",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Empty Injector",
+    "id": "",
+    "count": 4,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Requiem",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "12.7x55 Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "B934",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "S&S M232",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Freya's Needle",
+    "id": "",
+    "count" 1,
+    "progression": 0,
+    "Ammo": "Hamdgun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Makeshift Knife",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Hunting Knife",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Hemolytic Injector",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Empty Bottle",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Molotov Cocktail",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Bottle of Acid",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "IMP Matilda",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+
+  },
+  {
+    "type": "Weapon",
+    "name": "Silencer 9",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "W-870 Police",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Marksman 1A",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Rifle Ammo"
+  },
+  {
+    "type":"Weapon",
+    "name": "Classic 70",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Rifle Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "990 TAC",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Alligator Snapper",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Handgun Ammo"
+  },
+  {
+    "type":"Weapon",
+    "name": "Stiri REVO3 A1",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "RPG-7",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+  },
+  {
+    "type": "Weapon",
+    "name": "Redemption",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "12.7x55 Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Ghost Grudge",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo":"12.7x55 Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "Clatter Carbine",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo": "Machine Gun Ammo"
+  },
+  {
+    "type": "Weapon",
+    "name": "MSBG 500",
+    "id": "",
+    "count": 1,
+    "progression": 0,
+    "Ammo":"Shotgun Shells"
+  },
+  {
+    "type": "Weapon",
+    "name": "Hatchet",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Mortal Edge",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV I",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV II",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Armor",
+    "name": "Body Armor LV III",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Subweapon",
+    "name": "Hand Grenade",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Subweapon",
+    "name": "Stacked Hand Grenade",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "Handgun Ammo",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "12.7x55 Ammo",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "Shotgun Shells",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Ammo",
+    "name": "Machine Gun Ammo",
+    "id": "",
+    "count": 1,
+    "progression": 0
+ },
+ {
+    "type": "Ammo",
+    "name": "Rifle Ammo",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Hip Pouch",
+    "id": "",
+    "count": 4,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Stabilizer",
+    "id": "",
+    "count": 2,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Steroids",
+    "id": "",
+    "count": 2,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Override Manual",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Upgrade",
+    "name": "Tracking Module",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "name": "Victory",
+    "id": null,
+    "progression": 1
+  }
+]
