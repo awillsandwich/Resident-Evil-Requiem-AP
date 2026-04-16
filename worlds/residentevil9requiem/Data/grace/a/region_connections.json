@@ -85,16 +85,16 @@
     },
     { 
         "from": "G CCC WW Kitchen Hallway",
-        "to": "G CC WW Dinning Room",
+        "to": "G CCC WW Dining Room",
         "condition": {}
     },
     { 
-        "from": "G CCC WW Dinning Room",
-        "to": "G CC Hallway After Dinning Room",
+        "from": "G CCC WW Dining Room",
+        "to": "G CCC WW Dining Room Hallway",
         "condition": {}
     },
     { 
-        "from": "G CCC WW Dinning Room Hallway",
+        "from": "G CCC WW Dining Room Hallway",
         "to": "G CCC WW Filing Room",
         "condition": {}
     },
@@ -106,12 +106,12 @@
 	}
     },
     { 
-        "from": "G CCC WW Dinning Room Hallway",
+        "from": "G CCC WW Dining Room Hallway",
         "to": "G CCC WW 3F",
         "condition": {}
     },
     { 
-        "from": "G CCC WW Dinning Room Hallway",
+        "from": "G CCC WW Dining Room Hallway",
         "to": "G CCC WW Bar & Lounge",
         "condition": {}
     },
@@ -134,7 +134,7 @@
     },
     { 
         "from": "G CCC WW Custodian's Office Hallway",
-        "to": "G CCC Custodian's Office",
+        "to": "G CCC WW Custodian's Office",
         "condition": {}
     },
     { 
@@ -195,11 +195,11 @@
     },
     { 
         "from": "G CCC EW Blood Lab",
-        "to": "G CCC EW Hallway Outside Waiting Room",
+        "to": "G CCC EW 1F Hallway",
         "condition": {}
     },
     { 
-        "from": "G CCC EW Hallway Outside Waiting Room",
+        "from": "G CCC EW 1F Hallway",
         "to": "G CCC EW Waiting Room",
         "condition": {}
     },
@@ -236,5 +236,5 @@
         "from": "G CCC EW Isolation Ward Emily Defense",
         "to": "L CCC WW Attic",
         "condition": {}
-    },
+    }
 ]

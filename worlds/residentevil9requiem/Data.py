@@ -32,7 +32,7 @@ class Data:
         # Add standard regions
         ###
 
-        new_region_table = load_data_file('regions.json')
+        new_region_table = load_data_file('grace', 'a', 'regions.json')
         Data.region_table.extend([
             {
                 **reg,
@@ -45,7 +45,7 @@ class Data:
         # Add hardcore regions, if applicable
         ###
 
-        hardcore_locations_table = load_data_file('locations_hardcore.json')
+        hardcore_locations_table = load_data_file('grace', 'a', 'locations_hardcore.json')
         hardcore_regions = set([loc['region'] for loc in hardcore_locations_table])
 
         if len(hardcore_regions) > 0:
@@ -62,7 +62,7 @@ class Data:
         ###
 
         added_connections = []
-        new_region_connections_table = load_data_file('region_connections.json')
+        new_region_connections_table = load_data_file('grace', 'a', 'region_connections.json')
 
         for conn in new_region_connections_table:
             connection_path = f"{conn['from']} to {conn['to']}"
@@ -112,7 +112,7 @@ class Data:
         # Add item table for all difficulties
         ###
         
-        new_item_table = load_data_file('items.json')
+        new_item_table = load_data_file('grace', 'items.json')
         Data.item_table.extend([
             { 
                 **item, 
@@ -138,7 +138,7 @@ class Data:
         # Add standard location table
         ###
 
-        new_location_table = load_data_file('locations.json')
+        new_location_table = load_data_file('grace', 'a', 'locations.json')
         Data.location_table.extend([
             { 
                 **loc, 
@@ -153,7 +153,7 @@ class Data:
         # Add hardcore locations
         ###
 
-        hardcore_location_table = load_data_file('locations_hardcore.json')
+        hardcore_location_table = load_data_file('grace', 'a', 'locations_hardcore.json')
 
         if len(hardcore_location_table) > 0:
             Data.location_table.extend([

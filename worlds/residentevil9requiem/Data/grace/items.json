@@ -2,266 +2,266 @@
   {
     "type": "Key",
     "name": "Room 201 Key",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Wirecutters",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Fire Escape Key",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Cherub Key",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Lighter",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Antique Coin",
-    "decimal": "",
+    "id": "",
     "count": 23,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Screwdriver",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Fuse",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "West Wing Key Card",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Pantry Key",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Unicorn Trinket Box",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Pencil",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Key",
     "name": "Moon Quartz",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "East Wing Key Card",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 1",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Lockpick",
-    "decimal": "",
+    "id": "",
     "count": 5,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Corrosive Acid",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Wrench",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Sun Quartz",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Leatherbound Notbook",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Key",
     "name": "Organ Transpot Box",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Artificial Heart",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Artificial Heart",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 2",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 3",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Recovery",
     "name": "Green Herb",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Recovery",
     "name": "Med Injector",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Recovery",
     "name": "Mixed Herb G+G",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Recovery",
     "name": "Mixed Herb G+G+G",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Collector",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Denatured",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Converged",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Reversible",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Scrap",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Rare Metal",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Transfusion Bag",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Empty Injector",
-    "decimal": "",
+    "id": "",
     "count": 4,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Requiem",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "12.7x55 Ammo"
@@ -269,7 +269,7 @@
   {
     "type": "Weapon",
     "name": "B934",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -277,7 +277,7 @@
   {
     "type": "Weapon",
     "name": "S&S M232",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -285,58 +285,57 @@
   {
     "type": "Weapon",
     "name": "Freya's Needle",
-    "decimal": "",
-    "count" 1,
+    "id": "",
+    "count": 1,
     "progression": 0,
     "Ammo": "Hamdgun Ammo"
   },
   {
     "type": "Weapon",
     "name": "Makeshift Knife",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Hunting Knife",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Hemolytic Injector",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Empty Bottle",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Molotov Cocktail",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Bottle of Acid",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
-  },
   },
   {
     "type": "Weapon",
     "name": "IMP Matilda",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -345,15 +344,15 @@
   {
     "type": "Weapon",
     "name": "Silencer 9",
-    "decimal": "",
-   "count": 1,
+    "id": "",
+    "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
   },
   {
     "type": "Weapon",
     "name": "W-870 Police",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Shotgun Shells"
@@ -361,7 +360,7 @@
   {
     "type": "Weapon",
     "name": "Marksman 1A",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Rifle Ammo"
@@ -369,7 +368,7 @@
   {
     "type":"Weapon",
     "name": "Classic 70",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Rifle Ammo"
@@ -377,7 +376,7 @@
   {
     "type": "Weapon",
     "name": "990 TAC",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Shotgun Shells"
@@ -385,7 +384,7 @@
   {
     "type": "Weapon",
     "name": "Alligator Snapper",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -393,21 +392,20 @@
   {
     "type":"Weapon",
     "name": "Stiri REVO3 A1",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "RPG-7",
-    "decimal": "",
+    "id": "",
     "count": 1,
-    "progression": 0,
-  },
+    "progression": 0},
   {
     "type": "Weapon",
     "name": "Redemption",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "12.7x55 Ammo"
@@ -415,7 +413,7 @@
   {
     "type": "Weapon",
     "name": "Ghost Grudge",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo":"12.7x55 Ammo"
@@ -423,7 +421,7 @@
   {
     "type": "Weapon",
     "name": "Clatter Carbine",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo": "Machine Gun Ammo"
@@ -431,7 +429,7 @@
   {
     "type": "Weapon",
     "name": "MSBG 500",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0,
     "Ammo":"Shotgun Shells"
@@ -439,119 +437,119 @@
   {
     "type": "Weapon",
     "name": "Hatchet",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Mortal Edge",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Armor",
     "name": "Body Armor LV I",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Armor",
     "name": "Body Armor LV II",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Armor",
     "name": "Body Armor LV III",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Subweapon",
     "name": "Hand Grenade",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Subweapon",
     "name": "Stacked Hand Grenade",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "Handgun Ammo",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "12.7x55 Ammo",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "Shotgun Shells",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "Machine Gun Ammo",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
  },
  {
     "type": "Ammo",
     "name": "Rifle Ammo",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
-  }
+  },
   {
     "type": "Upgrade",
     "name": "Hip Pouch",
-    "decimal": "",
+    "id": "",
     "count": 4,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Stabilizer",
-    "decimal": "",
+    "id": "",
     "count": 2,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Steroids",
-    "decimal": "",
+    "id": "",
     "count": 2,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Override Manual",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Tracking Module",
-    "decimal": "",
+    "id": "",
     "count": 1,
     "progression": 0
   },

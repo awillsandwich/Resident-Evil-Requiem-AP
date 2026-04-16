@@ -139,7 +139,7 @@ class ResidentEvil9(World):
                     if not current_item_rule:
                         current_item_rule = lambda x: True
 
-                    location.item_rule = lambda item, loc_data=location_data, cur_rule=current_item_rule: RE7Location.is_item_forbidden(item, loc_data, cur_rule)
+                    location.item_rule = lambda item, loc_data=location_data, cur_rule=current_item_rule: RE9Location.is_item_forbidden(item, loc_data, cur_rule)
 
                 # now, set rules for the location access
                 if "condition" in location_data and "items" in location_data["condition"]:
@@ -166,10 +166,10 @@ class ResidentEvil9(World):
         visualize_regions(self.multiworld.get_region("Menu", self.player), "region_uml")
 
         # Place victory and set the completion condition for having victory
-        #self.multiworld.get_location("Victory", self.player) \
-            #.place_locked_item(self.create_item("Victory"))
+        self.multiworld.get_location("Victory", self.player) \
+            .place_locked_item(self.create_item("Victory"))
 
-        #self.multiworld.completion_condition[self.player] = lambda state: self._has_items(state, ['Victory'])
+        self.multiworld.completion_condition[self.player] = lambda state: self._has_items(state, ['Victory'])
 
     def create_items(self):
         scenario_locations = self.source_locations[self.player]
