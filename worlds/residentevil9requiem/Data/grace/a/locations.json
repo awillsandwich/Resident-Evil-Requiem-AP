@@ -6,7 +6,7 @@
         "condition": {},
         "item_object": "ds043_Detail",
         "folder_path": "AppResident/Instance/DetailSearch",
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "Wirecutters",
@@ -15,7 +15,7 @@
         "condition": {},
         "item_object": "it60_00_076",
         "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "Fire Escape Key",
@@ -25,7 +25,7 @@
         "item_object": "",
         "parent_object": "",
         "folder_path": "",
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "On Supply Box",
@@ -93,7 +93,7 @@
             7.99,
             44.83
         ],
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "In Cupboard",
@@ -121,7 +121,7 @@
             8.48,
             15.68
         ],
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "On Table",
@@ -193,7 +193,7 @@
             -490.1,
             33.64
         ],
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "Fuse",
@@ -212,7 +212,7 @@
             8.9,
             15.16
         ],
-        "Randomized": 0
+        "randomized": 0
     },
     {
         "name": "On Wheelchair Behind Entrance",
@@ -284,12 +284,13 @@
     {
         "name": "Grace Starting Weapon",
         "region": "G CCC Central Hall",
-        "original_item": "Requiem",
+        "original_item": "B934",
         "condition": {},
         "item_object": "",
         "parent_object": "",
         "folder_path": "",
-        "item_position": null
+        "item_position": null,
+	"randomized": 0
     },
     {
         "name": "By Statue",
@@ -445,7 +446,7 @@
     {
         "name": "On Floor",
         "region": "G CCC WW Dining Room",
-        "original_item": "B934",
+        "original_item": "Requiem",
         "condition": {},
         "item_object": "it10_00_003",
         "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/.....................",
@@ -1822,7 +1823,7 @@
         ]
     },
     {
-        "name": "ID Wristband Level 2",
+        "name": "Wristband on Zombie",
         "region": "G CCC EW Examination Room",
         "original_item": "ID Wristband Level 2",
         "condition": {
