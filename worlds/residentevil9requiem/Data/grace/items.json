@@ -2,196 +2,189 @@
   {
     "type": "Key",
     "name": "Room 201 Key",
-    "id": "",
+    "id": "it60_00_089",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Wirecutters",
-    "id": "",
+    "id": "it60_00_076",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Fire Escape Key",
-    "id": "",
+    "id": "it60_00_080",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Cherub Key",
-    "id": "",
+    "id": "it60_00_013",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Lighter",
-    "id": "",
+    "id": "it99_05_000",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Antique Coin",
-    "id": "",
+    "id": "it99_50_005",
     "count": 23,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Screwdriver",
-    "id": "",
+    "id": "it60_00_039",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Fuse",
-    "id": "",
+    "id": "it60_00_040",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "West Wing Key Card",
-    "id": "",
+    "id": "it60_00_045",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Pantry Key",
-    "id": "",
+    "id": "it60_00_069",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Unicorn Trinket Box",
-    "id": "",
+    "id": "it60_00_077",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Pencil",
-    "id": "",
+    "id": "it60_00_004",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Key",
     "name": "Moon Quartz",
-    "id": "",
+    "id": "it60_00_049",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "East Wing Key Card",
-    "id": "",
+    "id": "it60_00_046",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 1",
-    "id": "",
+    "id": "it60_00_055",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Lockpick",
-    "id": "",
+    "id": "it99_50_006",
     "count": 5,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Corrosive Acid",
-    "id": "",
+    "id": "it60_00_063",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Wrench",
-    "id": "",
+    "id": "it60_00_074",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Sun Quartz",
-    "id": "",
+    "id": "it60_00_048",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Leatherbound Notbook",
-    "id": "",
+    "id": "it60_00_122",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Key",
     "name": "Organ Transpot Box",
-    "id": "",
+    "id": "it60_00_073",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "Artificial Heart",
-    "id": "",
-    "count": 1,
-    "progression": 1
-  },
-  {
-    "type": "Key",
-    "name": "Artificial Heart",
-    "id": "",
+    "id": "it60_00_051",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 2",
-    "id": "",
+    "id": "it60_00_068",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Key",
     "name": "ID Wristband Level 3",
-    "id": "",
+    "id": "it60_00_075",
     "count": 1,
     "progression": 1
   },
   {
     "type": "Recovery",
     "name": "Green Herb",
-    "id": "",
+    "id": "it00_00_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Recovery",
     "name": "Med Injector",
-    "id": "",
+    "id": "it00_01_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Recovery",
     "name": "Mixed Herb G+G",
-    "id": "",
+    "id": "it00_00_100",
     "count": 1,
     "progression": 0
   },
@@ -205,56 +198,56 @@
   {
     "type": "Crafting",
     "name": "Blood Collector",
-    "id": "",
+    "id": "it99_06_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Denatured",
-    "id": "",
+    "id": "it60_00_064",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Converged",
-    "id": "",
+    "id": "it60_00_065",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Blood Specimen Reversible",
-    "id": "",
+    "id": "it60_00_067",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Scrap",
-    "id": "",
+    "id": "it50_00_002",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Rare Metal",
-    "id": "",
+    "id": "it50_00_006",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Transfusion Bag",
-    "id": "",
+    "id": "it99_06_004",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Crafting",
     "name": "Empty Injector",
-    "id": "",
+    "id": "it50_00_018",
     "count": 4,
     "progression": 0
   },
@@ -269,7 +262,7 @@
   {
     "type": "Weapon",
     "name": "B934",
-    "id": "",
+    "id": "it10_00_003",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -277,7 +270,7 @@
   {
     "type": "Weapon",
     "name": "S&S M232",
-    "id": "",
+    "id": "it10_00_001",
     "count": 1,
     "progression": 0,
     "Ammo": "Handgun Ammo"
@@ -288,33 +281,33 @@
     "id": "",
     "count": 1,
     "progression": 0,
-    "Ammo": "Hamdgun Ammo"
+    "Ammo": "Handgun Ammo"
   },
   {
     "type": "Weapon",
     "name": "Makeshift Knife",
-    "id": "",
+    "id": "it10_20_003",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Hunting Knife",
-    "id": "",
+    "id": "it10_20_005",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Hemolytic Injector",
-    "id": "",
+    "id": "it99_50_001",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Weapon",
     "name": "Empty Bottle",
-    "id": "",
+    "id": "it20_00_003",
     "count": 1,
     "progression": 0
   },
@@ -472,7 +465,7 @@
   {
     "type": "Subweapon",
     "name": "Hand Grenade",
-    "id": "",
+    "id": "it20_00_000",
     "count": 1,
     "progression": 0
   },
@@ -486,70 +479,70 @@
   {
     "type": "Ammo",
     "name": "Handgun Ammo",
-    "id": "",
+    "id": "it40_00_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "12.7x55 Ammo",
-    "id": "",
+    "id": "it40_02_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "Shotgun Shells",
-    "id": "",
+    "id": "it40_01_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Ammo",
     "name": "Machine Gun Ammo",
-    "id": "",
+    "id": "it40_03_000",
     "count": 1,
     "progression": 0
  },
  {
     "type": "Ammo",
     "name": "Rifle Ammo",
-    "id": "",
+    "id": "it40_05_000",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Hip Pouch",
-    "id": "",
+    "id": "it99_01_000",
     "count": 4,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Stabilizer",
-    "id": "",
+    "id": "it99_02_004",
     "count": 2,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Steroids",
-    "id": "",
+    "id": "it99_02_002",
     "count": 2,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Override Manual",
-    "id": "",
+    "id": "it99_50_011",
     "count": 1,
     "progression": 0
   },
   {
     "type": "Upgrade",
     "name": "Tracking Module",
-    "id": "",
+    "id": "it99_50_008",
     "count": 1,
     "progression": 0
   },

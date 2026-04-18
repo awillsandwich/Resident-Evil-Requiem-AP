@@ -4,8 +4,13 @@
         "region": "G RH",
         "original_item": "Room 201 Key",
         "condition": {},
-        "item_object": "ds043_Detail",
-        "folder_path": "AppResident/Instance/DetailSearch",
+        "item_object": "it60_00_083",
+        "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
+	"item_position": [
+	    -71.31, 
+	    2.61, 
+	    81.71
+	],
         "randomized": 0
     },
     {
@@ -15,6 +20,11 @@
         "condition": {},
         "item_object": "it60_00_076",
         "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
+	"item_position": [
+	    -56.37, 
+	    7.73, 
+	    94.06
+	]
         "randomized": 0
     },
     {
@@ -22,9 +32,13 @@
         "region": "G RH",
         "original_item": "Fire Escape Key",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": "",
+        "item_object": "it60_00_080",
+        "folder_path": "MainGame/Chap1_01/AbandonedHotel_Item",
+	"item_position": [
+	    -58.38, 
+	    1.01, 
+	    94.06
+	],
         "randomized": 0
     },
     {
@@ -185,13 +199,13 @@
         "region": "G CCC Intro Nurses Station",
         "original_item": "Screwdriver",
         "condition": {},
-        "item_object": "",
-        "parent_object": "ds028_Detail",
-        "folder_path": "AppResident/Instance/DetailSearch",
+        "item_object": "it60_00_039",
+        "parent_object": "sm91_091_00_Dynamic",
+        "folder_path": "MainGame/Chap3_01/Chap3_01_Gimmick/Chap3_01_Gimmick_Unique/st30_004_Gimmick_Unique",
         "item_position": [
-            51.35,
-            -490.1,
-            33.64
+	    51.48, 
+	    9.77, 
+	    33.35	
         ],
         "randomized": 0
     },
@@ -204,13 +218,13 @@
                 "Screwdriver"
             ]
         },
-        "item_object": "sm80_214_00",
-        "parent_object": "Gm13_005",
+        "item_object": "it60_00_040",
+        "parent_object": "st30_003",
         "folder_path": "MainGame/Chap3_01/Chap3_01_Gimmick/Chap3_01_Gimmick_Unique/st30_003_Gimmick_Unique",
         "item_position": [
-            8.47,
-            8.9,
-            15.16
+	    8.48, 
+	    8.86, 
+	    15.16
         ],
         "randomized": 0
     },
@@ -336,10 +350,13 @@
         "region": "G CCC Medication Room",
         "original_item": "West Wing Key Card",
         "condition": {},
-        "item_object": "",
-        "parent_object": "",
-        "folder_path": "",
-        "item_position": null
+        "item_object": "it60_00_045",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/FlowTryPickup",
+        "item_position": [
+	    -17.21, 
+	    0.80, 
+	    52.34
+	]
     },
     {
         "name": "Chef",
@@ -753,12 +770,12 @@
         "region": "G CCC WW Parlor",
         "original_item": "East Wing Key Card",
         "condition": {},
-        "item_object": "",
-        "folder_path": "AppResident/Instance/DetailSearch",
+        "item_object": "it60_00_046",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Gimmick/Chap3_02_Gimmick_Common/st30_031_Gimmick_Common",
         "item_position": [
-            -23.69,
-            -497.01,
-            32.4
+	    -23.84, 
+	    2.28, 
+	    32.09
         ]
     },
     {
@@ -1113,13 +1130,13 @@
         "region": "G CCC EW 1F Hallway",
         "original_item": "Med Injector",
         "condition": {},
-        "item_object": "it00_01_000",
+        "item_object": "it60_00_075",
         "parent_object": "ItemSpawner",
-        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/.....................1",
+        "folder_path": "MainGame/Chap3_02/Chap3_02_Item/FlowTryPickup",
         "item_position": [
-            38.25,
-            2.28,
-            40.5
+	    68.10, 
+	    3.05, 
+	    26.68)
         ]
     },
     {
