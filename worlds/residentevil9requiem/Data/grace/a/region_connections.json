@@ -1,18 +1,18 @@
 [
     { 
         "from": "Menu",
-        "to": "G RH",
+        "to": "G Wrenwood",
         "condition": {}
     },
     { 
-        "from": "G RH",
-        "to": "L RH",
+        "from": "G Wrenwood",
+        "to": "L Wrenwood",
         "condition": {
 		"Items": ["Room 201 Key", "Wirecutters", "Fire Escape Key"]
         }
     },
     { 
-        "from": "L RH",
+        "from": "L Wrenwood",
         "to": "G CCC Intro",
         "condition": {}
     },
@@ -20,7 +20,7 @@
         "from": "G CCC Intro",
         "to": "G CCC Intro Room 201",
         "condition": {
-		"Items": ["Cherub Key"]
+	    "Items": ["Cherub Key"]
 	}
     },
     { 

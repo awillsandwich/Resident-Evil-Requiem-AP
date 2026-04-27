@@ -1,7 +1,7 @@
 [
     {
         "name": "Room 201 Key",
-        "region": "G RH",
+        "region": "G Wrenwood",
         "original_item": "Room 201 Key",
         "condition": {},
         "item_object": "it60_00_083",
@@ -15,7 +15,7 @@
     },
     {
         "name": "Wirecutters",
-        "region": "G RH",
+        "region": "G Wrenwood",
         "original_item": "Wirecutters",
         "condition": {},
         "item_object": "it60_00_076",
@@ -29,7 +29,7 @@
     },
     {
         "name": "Fire Escape Key",
-        "region": "G RH",
+        "region": "G Wrenwood",
         "original_item": "Fire Escape Key",
         "condition": {},
         "item_object": "it60_00_080",
@@ -43,7 +43,7 @@
     },
     {
         "name": "On Supply Box",
-        "region": "L RH",
+        "region": "L Wrenwood",
         "original_item": "Tracking Module",
         "condition": {},
         "item_object": "it99_50_008",
@@ -56,7 +56,7 @@
     },
     {
         "name": "Next to bush",
-        "region": "L RH",
+        "region": "L Wrenwood",
         "original_item": "Tracking Module",
         "condition": {},
         "item_object": "it99_50_008_01",
@@ -70,7 +70,7 @@
     },
     {
         "name": "Back of Van",
-        "region": "L RH",
+        "region": "L Wrenwood",
         "original_item": "Tracking Module",
         "condition": {},
         "item_object": "it99_50_008_02",
@@ -83,7 +83,7 @@
     },
     {
         "name": "Green Herb Back of Van",
-        "region": "L RH",
+        "region": "L Wrenwood",
         "original_item": "Green Herb",
         "condition": {},
         "item_object": "it00_00_000",
@@ -1837,6 +1837,77 @@
             -65.15,
             2.29,
             11.39
+        ]
+    },
+    {
+        "name": "Locked Drawer",
+        "region": "G CCC EW Lobby",
+        "original_item": "Rare Metal",
+        "condition": {
+	    "Items": [
+		"Lockpick"
+	    ]
+	},
+        "item_object": "it50_00_006",
+        "parent_object": "ItemSpawner...............01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...1st/...............",
+        "item_position": [
+	    16.77, 
+	    3.06, 
+	    42.51
+        ]
+    },
+    {
+        "name": "Locked Drawer",
+        "region": "G CCC WW Gallery",
+        "original_item": "Rare Metal",
+        "condition": {
+	    "Items": [
+		"Lockpick"
+	    ]
+	},
+        "item_object": "it50_00_006",
+        "parent_object": "ItemSpawner...............01",
+        "folder_path": "MainGame/Chap3_02/ChapX_JCT001_Item/...............1st/...............",
+        "item_position": [
+	    -21.15, 
+	    8.01, 
+	    30.67
+        ]
+    },
+    {
+        "name": "Locked Drawer",
+        "region": "",
+        "original_item": "Rare Metal",
+        "condition": {
+	    "Items": [
+		"Lockpick",
+		"Lockpick"
+	    ]
+	},
+        "item_object": "it50_00_006",
+        "parent_object": "",
+        "folder_path": "",
+        "item_position": [
+	    
+        ]
+    },
+    {
+        "name": "Locked Drawer",
+        "region": "G CCC WW Kitchen Hallway",
+        "original_item": "Rare Metal",
+        "condition": {
+	    "Items": [
+		"Lockpick",
+		"Lockpick",
+		"Lockpick"
+	    ]
+	},
+        "item_object": "it50_00_006",
+        "parent_object": "",
+        "folder_path": "",
+        "item_position": [
+	    
         ]
     },
     {

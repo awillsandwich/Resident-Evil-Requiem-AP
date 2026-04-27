@@ -4,171 +4,399 @@
     "zone_id": 1
   },
   {
-    "name": "G RH",
+    "name": "G Wrenwood",
     "zone_id": 1
   },
   {
-    "name": "L RH",
+    "name": "L Wrenwood",
     "zone_id": 1
   },
   {
     "name": "G CCC Intro",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC Intro Room 201",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC Intro Nurses' Station",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "L CCC Intro Rehabilitation Ward",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC Central Hall",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC Guard Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC Medication Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Parlor",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Kitchen",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Kitchen Hallway",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Restroom",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Dining Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Pantry",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Filing Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Filing Room Closet",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Dining Room Hallway",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW 3F",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Bar & Lounge",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Gallery",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Chairman's Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Custodian's Office Hallway",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Custodian's Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Garage",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Records Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC WW Kitchenette",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Lobby",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Examination Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Blood Lab",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Blood Lab Closet",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Waiting Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Waiting Room Closet",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW 1F Hallway",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW 2F Hallway",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Lead Researcher's Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Conference Room",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Isolation Ward",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Security Manager's Office",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "G CCC EW Isolation Ward Emily Defense",
-    "zone_id": 1
+    "zone_id": 2
   },
   {
     "name": "L CCC WW Attic",
-    "zone_id": 1
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC West Wing",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC East Wing",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC WW Records Room",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Security Room",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Furnace",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Holding Cells",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Collection Pool",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Boiler Room",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Bunkroom",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Workshop",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Furnace Hallway",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Processing Hallway",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Processing",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Basement Inspection",
+    "zone_id": 2
   }
+  {
+    "name": "G CCC Rehabilitation Ward",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Courtyard",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Courtyard VIP Suite",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Courtyard Private Lab",
+    "zone_id": 2
+  },
+  {
+    "name": "G CCC Courtyard Helipad",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC Courtyard Roof",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC Courtyard Cemetery",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC Courtyard Chapel",
+    "zone_id": 2
+  },
+  {
+    "name": "G WTP Storage Bay",
+    "zone_id": 2
+  },
+  {
+    "name": "G WTP Marie Boss Arena",
+    "zone_id": 2
+  },
+  {
+    "name": "L ERC Outside Applegate Hotel",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Cafe Oasis",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Cafe Oasis",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Applegate Hotel",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Spider Chase",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Spider Boss Arena",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC West Ridgewood Station",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Outside Bomb Gate",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Central Camp",
+    "zone_id": 3
+  },
+  {
+    "name": "L Supply Box",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC BSAA Container 02",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Logistics Warehouse 1F",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Logistics Warehouse 2F",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Logistics Warehouse Roof",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Alley East of Central Camp",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Underground Parking Garage",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Sewage Facility",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Outside Cedarbrook Apartments",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC BSAA Container 01",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC BSAA Container 03",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Gas Station",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Construction Site",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC East Ridgewood Station",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC BSAA Container 04",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Cedarbrook Apartments 1F",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Cedarbrook Apartments Roof",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Willis Tower",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Willis Tower Collapsed Building",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Willis Tower Glass Floor",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Grimstone Building Rooftop Starting Area",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Grimstone Building Rooftop West Building",
+    "zone_id": 3
+  },
+  {
+    "name": "L ERC Grimstone Building Rooftop South East Building",
+    "zone_id": 3
+  },
 ]

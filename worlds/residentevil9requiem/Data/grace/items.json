@@ -168,6 +168,139 @@
     "progression": 1
   },
   {
+    "type": "Key",
+    "name": "Joint Plug",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Star Quartz",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Severed Hand",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Hourglass",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Double Helix Model",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key",
+    "name": "Helicopter Key",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key",
+    "name": "Crank Lever",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key", 
+    "name": "Cedarbrook Apartments Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "BSAA Container Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Repair Kit",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Distributor",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Valve Handwheel",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Relay",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Broken Signal Receiver",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "BSAA Container Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Battery",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Can of Gas",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Rusty Crank",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Machine Jack Handle",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
     "type": "Recovery",
     "name": "Green Herb",
     "id": "it00_00_000",
@@ -248,7 +381,21 @@
     "type": "Crafting",
     "name": "Empty Injector",
     "id": "it50_00_018",
-    "count": 4,
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Gunpowder Small",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Crafting",
+    "name": "Gunpowder Large",
+    "id": "",
+    "count": 1,
     "progression": 0
   },
   {
@@ -442,6 +589,20 @@
     "progression": 0
   },
   {
+    "type": "Weapon",
+    "name": "Hand Grenade",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Weapon",
+    "name": "Stacked Hand Grenade",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
     "type": "Armor",
     "name": "Body Armor LV I",
     "id": "",
@@ -458,20 +619,6 @@
   {
     "type": "Armor",
     "name": "Body Armor LV III",
-    "id": "",
-    "count": 1,
-    "progression": 0
-  },
-  {
-    "type": "Subweapon",
-    "name": "Hand Grenade",
-    "id": "it20_00_000",
-    "count": 1,
-    "progression": 0
-  },
-  {
-    "type": "Subweapon",
-    "name": "Stacked Hand Grenade",
     "id": "",
     "count": 1,
     "progression": 0
