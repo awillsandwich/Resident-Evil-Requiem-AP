@@ -301,6 +301,48 @@
     "progression": 1
   },
   {
+    "type": "Key", 
+    "name": "Locker Key",
+    "id": "",
+    "count": 1,
+    "progression": 0
+  },
+  {
+    "type": "Key", 
+    "name": "Override Key (Dump Control Room)",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Magnetic Key",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Animus Orb",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Noblesse Orb",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
+    "type": "Key", 
+    "name": "Override Key (Bioweapon Repository 11)",
+    "id": "",
+    "count": 1,
+    "progression": 1
+  },
+  {
     "type": "Recovery",
     "name": "Green Herb",
     "id": "it00_00_000",

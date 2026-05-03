@@ -404,7 +404,143 @@
     "zone_id": 3
   },
   {
-    "name": "L RCC RPD Main Hall",
+    "name": "L RCC RPD",
     "zone_id": 3
+  },
+  {
+    "name": "L RCC Outside RPD",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC RPD Basement",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC RPD Gun Shop Kendo",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Before Tyrant Boss",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Tyrant Boss Arena",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Basketball Court",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Blackthorn Station",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Blackthorn Station Platform",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Area Before Plant 43 Boss",
+    "zone_id": 3
+  },
+  {
+    "name": "L RCC Plant 43 Boss Arena",
+    "zone_id": 3
+  },
+  {
+    "name": "L ARK Loading Dock",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Staff Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Server Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Stockroom",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Guest Lounge",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK HUNK Boss Arena",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Dump Control Room",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Dump Control Room Stairwell",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Lab Entrance",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Sterilization Chamber",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Bioweapon Repository 02",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Chemical Storage",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Clean Room",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Lobby",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Monitor Control Room",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Anteroom",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Bioweapon Repository 05",
+    "zone_id": 4
+  },
+  {
+    "name": "G ARK Operations Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Back Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Room Outside B4 Staff Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK B4 Staff Room",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Bioweapon Repository 11",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Bioweapon Repository 12",
+    "zone_id": 4
+  },
+  {
+    "name": "L ARK Final Boss Arena",
+    "zone_id": 4
   },
 ]
