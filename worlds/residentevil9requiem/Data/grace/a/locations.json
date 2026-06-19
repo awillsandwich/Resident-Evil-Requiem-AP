@@ -2074,17 +2074,479 @@
         ]
     },
     {
-        "name": "Victory",
+        "name": "Crate Before Chunk Fight",
         "region": "L CCC WW Attic",
+        "original_item": "Rifle Ammo",
         "condition": {},
-        "item_object": null,
+        "item_object": "it40_05_000",
         "folder_path": "AppResident/Instance/Item",
         "item_position": [
-            30.86,
-            14.05,
-            27.85
+	    30.86, 
+	    14.05, 
+	    27.85
+        ]
+    },
+    {
+        "name": "On Table Before Chunk Fight",
+        "region": "L CCC WW Attic",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    28.08, 
+	    15.6, 
+	    38.18
+        ]
+    },
+    {
+        "name": "Chunk Boss",
+        "region": "L CCC WW Attic",
+        "original_item": "Stacked Hand Grenade",
+        "condition": {},
+        "item_object": "it20_00_004",
+        "parent_object": "ItemSpawner_06",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    17.75, 
+	    14.81, 
+	    38.74
+        ]
+    },
+    {
+        "name": "In Medical Case",
+        "region": "L CCC WW Attic",
+        "original_item": "Medical Injector",
+        "condition": {},
+        "item_object": "it00_01_000",
+        "parent_object": "ItemObjectControl",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Gimmick/Chap3_20_Gimmick_Common/st30_076_Gimmick_Common",
+        "item_position": [
+	    18.11, 
+	    16.15, 
+	    30.46
+        ]
+    },
+    {
+        "name": "Behind Boards",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000_01_01_02",
+        "parent_object": "ItemObjectControl",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Gimmick/Chap3_20_Gimmick_Common/st30_076_Gimmick_Common",
+        "item_position": [
+	    24.61, 
+	    16.02, 
+	    30.48
+        ]
+    },
+    {
+        "name": "Hidden Next to Blue Sheet",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "",
+        "parent_object": "",
+        "folder_path": "",
+        "item_position": [
+	    
+        ]
+    },
+    {
+        "name": "On Stack of Boxes",
+        "region": "L CCC WW Attic",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000_01",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    19.28, 
+	    16.11, 
+	    36.01
+        ]
+    },
+    {
+        "name": "Next to Crate",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000_01_01_01_01",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    24.43, 
+	    19.77, 
+	    43.76
+        ]
+    },
+    {
+        "name": "In Crate Upper Floor",
+        "region": "L CCC WW Attic",
+        "original_item": "Rifle Ammo",
+        "condition": {},
+        "item_object": "it40_05_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    24.54, 
+	    19.68, 
+	    43.24
+        ]
+    },
+    {
+        "name": "On Desk",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000_01_01_01_01_01_01",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    8.69, 
+	    15.57, 
+	    34.3
+        ]
+    },
+    {
+        "name": "In Crate On Floor 1",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    11.42, 
+	    14.79, 
+	    33.68
+        ]
+    },
+    {
+        "name": "In Crate On Floor 2",
+        "region": "L CCC WW Attic",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    12.03, 
+	    14.79, 
+	    33.78
+        ]
+    },
+    {
+        "name": "By Window",
+        "region": "L CCC WW Attic",
+        "original_item": "Handgun Ammo",
+        "condition": {},
+        "item_object": "it40_00_000",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/East3F",
+        "item_position": [
+	    10.79, 
+	    16.02, 
+	    45.74
+        ]
+    },
+    {
+        "name": "In Crate After Chunk Boss",
+        "region": "L CCC WW Attic",
+        "original_item": "Machine Gun Ammo",
+        "condition": {},
+        "item_object": "it40_03_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    -26.94, 
+	    12.1, 
+	    0.6
+        ]
+    },
+    {
+        "name": "In Gallery Warped Closet 1",
+        "region": "L CCC West Wing",
+        "original_item": "Shotgun Ammo",
+        "condition": {},
+        "item_object": "it40_01_000",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -29.46, 
+	    8.39, 
+	    8.25
+        ]
+    },
+    {
+        "name": "In Gallery Warped Closet 2",
+        "region": "L CCC West Wing",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "parent_object": "ItemSpawner_02",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -29.47, 
+	    8.4, 
+	    28.04
+        ]
+    },
+    {
+        "name": "In Filing Room Warped Closet 1",
+        "region": "L CCC West Wing",
+        "original_item": "Handgun Ammo",
+        "condition": {
+            "Items": [
+                "ID Wristband Level 1"
+            ]
+	},
+        "item_object": "it40_00_000",
+        "parent_object": "ItemSpawner_03",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -31.47, 
+	    3.42, 
+	    17.34
+        ]
+    },
+    {
+        "name": "In Filing Room Warped CLoset 2",
+        "region": "L CCC West Wing",
+        "original_item": "Med Injector",
+        "condition": {
+            "Items": [
+                "ID Wristband Level 1"
+            ]
+	},
+        "item_object": "it00_01_000",
+        "parent_object": "ItemSpawner_04",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -31.53, 
+	    3.42, 
+	    16.96
+        ]
+    },
+    {
+        "name": "In Pantry Warped Closet",
+        "region": "L CCC West Wing",
+        "original_item": "Tracking Module",
+        "condition": {
+            "Items": [
+                "Pantry Key"
+            ]
+	},
+        "item_object": "it99_50_008",
+        "parent_object": "ItemSpawner_13",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -45.36, 
+	    3.41, 
+	    35.66
+        ]
+    },
+    {
+        "name": "In Records Room Warped Closet 1",
+        "region": "L CCC West Wing",
+        "original_item": "Mixed Herb G+G",
+        "condition": {
+            "Items": [
+                "ID Wristband Level 1"
+            ]
+	},
+        "item_object": "it00_00_100",
+        "parent_object": "ItemSpawner_08",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -35.11, 
+	    8.42, 
+	    31.07
+        ]
+    },
+    {
+        "name": "In Records Room Warped Closet 2",
+        "region": "L CCC West Wing",
+        "original_item": "Handgun Ammo",
+        "condition": {
+            "Items": [
+                "ID Wristband Level 1"
+            ]
+	},
+        "item_object": "it40_00_000",
+        "parent_object": "ItemSpawner_07",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/..................",
+        "item_position": [
+	    -34.65, 
+	    8.41, 
+	    31.01
+        ]
+    },
+    {
+        "name": "In Case By Stariwell",
+        "region": "L CCC East Wing",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/...1st/CLASSIC_INSANITY_ONLY",
+        "item_position": [
+	    52.31, 
+	    3.52, 
+	    42.84
+        ]
+    },
+    {
+        "name": "Case In Conference Room",
+        "region": "L CCC East Wing",
+        "original_item": "Tracking Module",
+        "condition": {},
+        "item_object": "it99_50_008",
+        "parent_object": "ItemSpawner",
+        "folder_path": "MainGame/Chap3_20/ChapX_JCT001_Item/...1st/CLASSIC_INSANITY_ONLY",
+        "item_position": [
+	    28.87, 
+	    8.42, 
+	    49.24
+        ]
+    },
+    {
+        "name": "In Vase 1",
+        "region": "L CCC WW Lounge",
+        "original_item": "Machine Gun Ammo",
+        "condition": {},
+        "item_object": "it40_03_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    -52.76, 
+	    12.29, 
+	    28.43
+        ]
+    },
+    {
+        "name": "In Vase 2",
+        "region": "L CCC WW Lounge",
+        "original_item": "Machine Gun Ammo",
+        "condition": {},
+        "item_object": "it40_03_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    -51.05, 
+	    12.29, 
+	    36.96
+        ]
+    },
+    {
+        "name": "On Table",
+        "region": "L CCC WW Lounge",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/West3F",
+        "item_position": [
+	    -46.05, 
+	    13.24, 
+	    36.73
+        ]
+    },
+    {
+        "name": "In Vase",
+        "region": "L CCC WW Meeting Room",
+        "original_item": "Rifle Ammo",
+        "condition": {},
+        "item_object": "it40_05_000",
+        "folder_path": "AppResident/Instance/Item",
+        "item_position": [
+	    -34.89, 
+	    12.3, 
+	    33.65
+        ]
+    },
+    {
+        "name": "On Table",
+        "region": "L CCC WW Director's Office",
+        "original_item": "Shotgun Shells",
+        "condition": {},
+        "item_object": "it40_01_000",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/West3F",
+        "item_position": [
+	    -39.58, 
+	    13.13, 
+	    29.59
+        ]
+    },
+    {
+        "name": "Next to Medical Case",
+        "region": "L CCC WW Director's Office",
+        "original_item": "Hand Grendae",
+        "condition": {},
+        "item_object": "it20_00_000",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/West3F",
+        "item_position": [
+	    -35.61, 
+	    13.16, 
+	    29.28
+        ]
+    },
+    {
+        "name": "In Medical Case",
+        "region": "L CCC WW Director's Office",
+        "original_item": "Med Injector",
+        "condition": {},
+        "item_object": "it00_01_000",
+        "parent_object": "ItemSpawner_02",
+        "folder_path": "MainGame/Chap3_20/Chap3_20_Item/West3F",
+        "item_position": [
+	    -35.4, 
+	    13.28, 
+	    29.02
+        ]
+    },
+    {
+        "name": "On Floor Outside Security Room",
+        "region": "G CCC Basement",
+        "original_item": "Green Herb",
+        "condition": {},
+        "item_object": "it00_00_000",
+        "folder_path": "MainGame/Chap3_03/Chap3_03_Item/ConsumptionItem/NEW_ConsumptionItem",
+        "item_position": [
+	    -1.38, 
+	    -9.01, 
+	    52.29
+        ]
+    },
+    {
+        "name": "By Elevator",
+        "region": "G CCC Basement Collection pool",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_03/Chap3_03_Item/ConsumptionItem/NEW_ConsumptionItem",
+        "item_position": [
+	    -14.03, 
+	    -9.81, 
+	    58.83
+        ]
+    },
+    {
+        "name": "On Bed",
+        "region": "G CCC Basement Holding Cells",
+        "original_item": "Scrap",
+        "condition": {},
+        "item_object": "it50_00_002",
+        "folder_path": "MainGame/Chap3_03/Chap3_03_Item/ConsumptionItem/NEW_ConsumptionItem",
+        "item_position": [
+	    2.92, 
+	    -8.26, 
+	    32.31
+        ]
+    },
+    {
+        "name": "Joint Plug",
+        "region": "G CCC Basement Holding Cells",
+        "original_item": "Joint Plug",
+        "condition": {},
+        "item_object": "it60_00_038",
+        "parent_object": "model",
+        "folder_path": "MainGame/Chap3_03/Chap3_03_Gimmick/Chap3_03_Gimmick_Unique/st30_022_Gimmick_Unique",
+        "item_position": [
+	    8.58, 
+	    -8.00, 
+	    35.51
         ],
-        "id": null,
-        "victory": true
-    }
+	"randomized": 0
+    },
 ]

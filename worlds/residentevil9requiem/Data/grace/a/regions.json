@@ -180,7 +180,15 @@
     "zone_id": 2
   },
   {
-    "name": "L CCC WW Records Room",
+    "name": "L CCC WW Lounge",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC WW Meeting Room",
+    "zone_id": 2
+  },
+  {
+    "name": "L CCC WW Director's Office",
     "zone_id": 2
   },
   {
@@ -542,5 +550,5 @@
   {
     "name": "L ARK Final Boss Arena",
     "zone_id": 4
-  },
+  }
 ]
