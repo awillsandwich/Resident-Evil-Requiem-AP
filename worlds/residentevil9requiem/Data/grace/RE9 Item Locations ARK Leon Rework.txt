@@ -1,0 +1,443 @@
+        "name": "In plastic container"
+        "region": "L ARK Loading Dock"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-158.77, 57.93, 71.0]
+
+        "name": "Medical Case"
+        "region": "L ARK Staff Room"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-126.44, 58.82, 24.89]
+
+        "name": "Crate By Supply Box"
+        "region": "L ARK Staff Room"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-122.46, 57.78, 16.55]
+
+        "name": "On The Shelf"
+        "region": "L ARK Server Room"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-131.87, 54.47, 69.97]
+
+        "name": "On Small Cart"
+        "region": "L ARK Server Room"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-113.49, 54.06, 78.31]
+
+        "name": "Crate On Server Rack"
+        "region": "L ARK Server Room"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-116.66, 54.53, 83.69]
+
+        "name": "On Desk Before Security Cameras"
+        "region": "L ARK Server Room"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-121.32, 54.16, 96.06]
+
+        "name": "Crate Before Ladder"
+        "region": "L ARK Stockroom"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-101.63, 54.32, 58.41]
+
+        "name": "Crate On Southeast Corner"
+        "region": "L ARK Stockroom"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-102.43, 53.32, 43.94]
+
+        "name": "Green Herb By Computer"
+        "region": "L ARK Stockroom"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-119.27, 53.92, 42.06]
+
+        "name": "Crate On Northwest Corner"
+        "region": "L ARK Stockroom"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-119.4, 53.32, 23.14]
+
+        "name": "On Storage Shelf at end of Corridor"
+        "region": "L ARK Stockroom"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-97.37, 54.46, 20.18]
+
+        "name": "Crate at the Corner"
+        "region": "L ARK Guest Lounge"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-59.02, 57.16, 15.54]
+
+        "name": "Crate on top of drawers"
+        "region": "L ARK Guest Lounge"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-63.25, 58.06, 15.72]
+
+        "name": "Crate at Northeast Corner"
+        "region": "L ARK HUNK Boss Arena"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_10/Chap5_10_Item"
+        "item_position": [-43.55, 51.39, 6.71]
+
+        "name": "Crate at Northeast Corner"
+        "region": "L ARK HUNK Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-48.44, 51.33, 13.51]
+
+        "name": "Inside Case"
+        "region": "L ARK Back Room"
+        "original_item": "12.7x55mm Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [38.39, 14.93, -18.87]
+
+        "name": "Inside Trash Can"
+        "region": "L ARK Back Room"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [31.55, 14.2, -15.42]
+
+        "name": "Crate on the floor"
+        "region": "L ARK Back Room"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [34.4, 14.0, -21.76]
+
+        "name": "Crate on the Desk"
+        "region": "L ARK Back Room"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [31.13, 14.87, -17.73]
+
+        "name": "On The Cart"
+        "region": "L ARK Room Outside B4 Staff Room"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [14.43, 14.85, -47.23]
+
+        "name": "Medical Case"
+        "region": "L ARK B4 Staff Room"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [12.13, 14.96, -61.55]
+
+        "name": "Crate On The Floor"
+        "region": "L ARK B4 Staff Room"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [14.59, 14.0, -64.61]
+
+        "name": "Crate by Server Rack"
+        "region": "L ARK Bioweapon Repository 11"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-23.72, 15.5, -51.95]
+
+        "name": "In Small Case"
+        "region": "L ARK Bioweapon Repository 11"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner_01"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-17.52, 16.83, -48.23]
+
+        "name": "Crate By Door"
+        "region": "L ARK Bioweapon Repository 11"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-11.7, 15.5, -35.9]
+
+        "name": "In Southwest Container"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-49.09, 8.17, -33.15]
+
+        "name": "In Middle room Container"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-42.75, 7.7, -42.15]
+
+        "name": "Crate in the Northwest area"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-50.3, 7.5, -51.1]
+
+        "name": "Crate in the Northeast Side of the room"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-28.5, 7.5, -48.45]
+
+        "name": "On Top of cases in Generator Room"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-62.68, 8.2, -49.03]
+
+        "name": "Crate near button in Generator Room"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-63.2, 7.5, -33.54]
+
+        "name": "Green Herb at the East side"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-33.07, 9.15, -44.13]
+
+        "name": "Crate at the East side"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-29.89, 7.51, -44.12]
+
+        "name": "Override Key (Bioweapon Repository 11)"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Override Key (Bioweapon Repository 11)"
+        "condition": ""
+        "item_object": "it60_00_114"
+        "parent_object": "sm80_487_00_Dynamic"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Gimmick/Chap5_02_Gimmick_Unique/st50_040_Gimmick_Unique/Door"
+        "item_position": [-26.62, 17.21, -47.2]
+
+        "name": "Crate next to Key"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-27.15, 15.5, -49.5]
+
+        "name": "On Top Of Control Panel"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-29.16, 16.2, -50.72]
+
+        "name": "In Medical Case"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-30.06, 16.34, -50.75]
+
+        "name": "Small Case on top of Server Rack"
+        "region": "L ARK Bioweapon Repository 12"
+        "original_item": "12.7x55mm Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_01"
+        "item_position": [-34.42, 16.59, -45.62]
+
+        "name": "On Rubble back of starting point"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Med Injector"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it00_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/FirsthalfItem"
+        "item_position": [-7.41, -29.11, -5.89]
+
+        "name": "On Top of Rubble South"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Shotgun Shells"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/FirsthalfItem"
+        "item_position": [-6.68, -28.88, -4.62]
+
+        "name": "Crate"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Machine Gun Ammo"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-9.49, -29.71, 3.27]
+
+        "name": "Crate 1"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-4.01, -29.84, 7.97]
+
+        "name": "Crate 2"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Med Injector"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/FirsthalfItem"
+        "item_position": [1.69, -29.8, 10.53]
+
+        "name": "On Rubble at north of the room"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Rifle Ammo"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_05_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/FirsthalfItem"
+        "item_position": [5.49, -29.24, 6.41]
+
+        "name": "2nd Phase Left Side"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/SecondhalfItem"
+        "item_position": [-6.48, -29.67, 5.38]
+
+        "name": "2nd Phase Left Side 1"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Hand Grenade"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it20_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/SecondhalfItem"
+        "item_position": [-7.16, -29.19, 4.45]
+
+        "name": "2nd Phase Left Side 2"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Med Injector"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it00_01_000_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/SecondhalfItem"
+        "item_position": [-10.28, -29.37, 1.0]
+
+        "name": "2nd Phase Right Side"
+        "region": "L ARK Final Boss Arena"
+        "original_item": "Machine Gun Ammo"
+        "condition": "Override Key (Bioweapon Repository 11)"
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_03/Chap5_03_Item/SecondhalfItem"
+        "item_position": [7.53, -29.78, 3.49]
+
+
+

@@ -1,0 +1,408 @@
+        "name": "On Top of Rubbled Desk"
+        "region": "L RCC RPD"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Sub/West2F/OperationConferenceRoom"
+        "item_position": [-76.33, 0.1, -11.01]
+
+        "name": "On Broken Couch"
+        "region": "L RCC RPD"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Sub"
+        "item_position": [-54.28, -0.48, 6.56]
+
+        "name": "Mechanic Jack"
+        "region": "L RCC RPD"
+        "original_item": "Mechanic Jack"
+        "condition": ""
+        "item_object": "it60_00_090"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item"
+        "item_position": [-61.57, 4.41, -12.95]
+
+        "name": "Shells After Drop From Library"
+        "region": "L RCC RPD"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [-50.45, 6.81, -8.15]
+
+        "name": "Locker Key"
+        "region": "L RCC RPD"
+        "original_item": "Locker Key"
+        "condition": ""
+        "item_object": "it60_00_110"
+        "parent_object": "model"
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Gimmick/Chap4_40_Gimmick_Unique/st40_412_Gimmick_Unique"
+        "item_position": [-70.92, 1.84, -15.59]
+
+        "name": "Crate Next to Trash Can"
+        "region": "L RCC RPD Basement"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-38.82, -5.72, -8.32]
+
+        "name": "Crate By Truck"
+        "region": "L RCC RPD Basement"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-39.27, -5.72, 6.37]
+
+        "name": "Crate By Truck 1"
+        "region": "L RCC RPD Basement"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-39.22, -5.72, 7.05]
+
+        "name": "Med Injector On Table"
+        "region": "L RCC RPD Basement"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Sub"
+        "item_position": [-53.33, -5.05, 1.54]
+
+        "name": "On Box Next to Container"
+        "region": "L RCC RPD Basement"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/Parking"
+        "item_position": [-58.92, -5.16, 4.5]
+
+        "name": "Inside Shipping Container"
+        "region": "L RCC RPD Basement"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Sub"
+        "item_position": [-56.77, -4.72, 7.58]
+
+        "name": "Crate By Brick Wall"
+        "region": "L RCC RPD Gun Shop Kendo"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-3.96, -0.8, -74.92]
+
+        "name": "Crate By Brick Wall 1"
+        "region": "L RCC RPD Gun Shop Kendo"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-4.0, -0.8, -74.2]
+
+        "name": "On Weapon Case"
+        "region": "L RCC Before Tyrant Boss"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [-17.07, 0.25, -101.17]
+
+        "name": "On Weapon Case 1"
+        "region": "L RCC Before Tyrant Boss"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [-17.14, 0.25, -101.59]
+
+        "name": "On Case Next To Save Point"
+        "region": "L RCC Before Tyrant Boss"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [-13.0, -0.62, -104.55]
+
+        "name": "On Case Next To Save Point 1"
+        "region": "L RCC Before Tyrant Boss"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [-13.23, -0.61, -104.67]
+
+        "name": "Crate By Tire"
+        "region": "L RCC Tyrant Boss Arena"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Spawner"
+        "item_position": [4.79, -0.55, -112.35]
+
+        "name": "On Driver Seat"
+        "region": "L RCC Tyrant Boss Arena"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Street"
+        "item_position": [11.01, 0.22, -112.55]
+
+        "name": "Crate By Burning Truck"
+        "region": "L RCC Tyrant Boss Arena"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_40/Chap4_40_Item/newFolder/Spawner"
+        "item_position": [-8.43, -0.8, -134.27]
+
+        "name": "Crate By Door"
+        "region": "L RCC Basketball Court"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [24.91, -0.73, -110.89]
+
+        "name": "On The Seat"
+        "region": "L RCC Blackthorn Station"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleHigh"
+        "item_position": [-23.0, -10.56, -261.01]
+
+        "name": "Near Train Entrance"
+        "region": "L RCC Blackthorn Station"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleHigh"
+        "item_position": [1.91, -18.04, -280.1]
+
+        "name": "Back of the Subway Car"
+        "region": "L RCC Blackthorn Station"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleHigh"
+        "item_position": [-8.19, -16.94, -276.08]
+
+        "name": "On Top of AC Unit"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Gunpowder Small"
+        "condition": ""
+        "item_object": "it50_00_001"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle"
+        "item_position": [-0.69, -59.19, -328.33]
+
+        "name": "Back of the Subway Train"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle"
+        "item_position": [-4.33, -58.36, -325.77]
+
+        "name": "On Subway Train Seat"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle"
+        "item_position": [-8.76, -58.94, -339.3]
+
+        "name": "Large Case Before Rappel"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle/Itembox"
+        "item_position": [-24.07, -59.78, -330.27]
+
+        "name": "Large Case Before Rappel 1"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle/Itembox"
+        "item_position": [-23.56, -59.78, -330.56]
+
+        "name": "Large Case Before Rappel 2"
+        "region": "L RCC Blackthorn Station Platform"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleMiddle/Itembox"
+        "item_position": [-23.04, -59.78, -330.85]
+
+        "name": "Hanging Briefcase"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-55.01, -177.58, -338.9]
+
+        "name": "Crate on right of supply box"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-68.31, -174.66, -352.81]
+
+        "name": "Inside broken pipe"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow"
+        "item_position": [-80.37, -177.97, -350.37]
+
+        "name": "Large Case"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "12.7x55 Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow/Itembox"
+        "item_position": [-70.12, -172.75, -344.88]
+
+        "name": "Large Case 1"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow/Itembox"
+        "item_position": [-70.67, -172.69, -345.07]
+
+        "name": "Large Case 2"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow/Itembox"
+        "item_position": [-70.97, -172.65, -345.17]
+
+        "name": "Crate at the end of the northeast path"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-78.93, -179.91, -367.46]
+
+        "name": "Crate after climbing ledge"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow"
+        "item_position": [-86.32, -178.77, -368.15]
+
+        "name": "Hanging Briefcase By Bus"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner_01"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow/Itembox"
+        "item_position": [-91.5, -179.96, -365.32]
+
+        "name": "Green Herb By Two Seedlings"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow"
+        "item_position": [-99.47, -180.8, -374.76]
+
+        "name": "Crate Before Plant 43 Boss"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-113.42, -181.86, -391.28]
+
+        "name": "Crate Before Plant 43 Boss 1"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-113.57, -182.03, -391.98]
+
+        "name": "Green Herb Before Planet 43 Boss"
+        "region": "L RCC Area Before Plant 43 Boss"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_LargeHoleLow"
+        "item_position": [-121.2, -183.53, -399.37]
+
+        "name": "Crate In Planet 43 Boss Arena"
+        "region": "L RCC Plant 43 Boss Arena"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_50/Chap4_50_Item/Item_BattleArea"
+        "item_position": [-112.25, -186.41, -425.33]
+
+        "name": "Crate In Planet 43 Boss Arena 1"
+        "region": "L RCC Plant 43 Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-112.23, -186.41, -425.83]
+
+
+
+

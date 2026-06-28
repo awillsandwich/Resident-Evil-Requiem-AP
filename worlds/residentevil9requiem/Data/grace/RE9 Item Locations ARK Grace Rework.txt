@@ -1,0 +1,341 @@
+        "name": "Magnetic Key"
+        "region": "G ARK Dump Control Room"
+        "original_item": "Magnetic Key"
+        "condition": "Override Key (Dump Control Room)"
+        "item_object": "it60_00_112"
+        "parent_object": "sm80_487_00"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Gimmick/Chap5_02_Gimmick_Unique/st50_023_Gimmick_Unique"
+        "item_position": [49.8, 19.45, -43.89]
+
+        "name": "Crate By The Stairs"
+        "region": "G ARK Dump Control Room Stairwell"
+        "original_item": "Empty Bottle"
+        "condition": ""
+        "item_object": "it20_00_003"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [58.7, 25.0, -49.35]
+
+        "name": "On Top of Bench"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Empty Bottle"
+        "condition": ""
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [84.61, 27.4, -55.64]
+
+        "name": "Green Herb On The Desk"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [86.76, 27.33, -71.14]
+
+        "name": "Bottle next to Safe Box"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Empty Bottle"
+        "condition": ""
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [87.7, 27.4, -76.45]
+
+        "name": "Safebox"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [89.07, 27.47, -76.56]
+
+        "name": "Safebox 1"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Molotov Cocktail"
+        "condition": ""
+        "item_object": "it20_00_002"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [89.03, 27.45, -76.47]
+
+        "name": "Safebox 2"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [88.86, 27.46, -76.56]
+
+        "name": "On The Northwest Bench"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Makeshift Knife"
+        "condition": ""
+        "item_object": "it10_20_003"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [80.06, 27.33, -76.22]
+
+        "name": "Bottle By ARK Zombie"
+        "region": "G ARK Sterilization Chamber"
+        "original_item": "Empty Bottle"
+        "condition": ""
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [82.27, 27.3, -64.26]
+
+        "name": "On Corner of the bench"
+        "region": "G ARK Chemical Storage"
+        "original_item": "Bottle of Acid"
+        "condition": ""
+        "item_object": "it20_00_005"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [94.04, 27.46, -80.13]
+
+        "name": "On Counter next to cart"
+        "region": "G ARK Chemical Storage"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [96.44, 27.47, -77.05]
+
+        "name": "Middle of the other side bench"
+        "region": "G ARK Chemical Storage"
+        "original_item": "Bottle of Acid"
+        "condition": ""
+        "item_object": "it20_00_005"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [96.29, 27.46, -81.34]
+
+        "name": "Override Key (Dump Control Room)"
+        "region": "G ARK Chemical Storage"
+        "original_item": "Override Key (Dump Control Room)"
+        "condition": ""
+        "item_object": "sm80_492_00"
+        "parent_object": "Gm19_148"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Gimmick/Chap5_02_Gimmick_Unique/st50_029_Gimmick_Unique"
+        "item_position": [101.3, 26.5, -81.8]
+
+        "name": "On Bed Next to ARK Zombie"
+        "region": "G ARK Clean Room"
+        "original_item": "Molotov Cocktail"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [77.1, 27.26, -84.03]
+
+        "name": "On Bed Northwest Side"
+        "region": "G ARK Clean Room"
+        "original_item": "Transfusion Bag"
+        "condition": "Magnetic Key"
+        "item_object": "it99_06_004"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [65.78, 27.25, -87.59]
+
+        "name": "Animus Orb"
+        "region": "G ARK Clean Room"
+        "original_item": "Animus Orb"
+        "condition": "Magnetic Key"
+        "item_object": "it60_00_105"
+        "parent_object": "sm80_489_00_Dynamic"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Gimmick/Chap5_02_Gimmick_Unique/st50_030_Gimmick_Unique/KeyItem_Box"
+        "item_position": [70.75, 27.63, -90.8]
+
+        "name": "On Desk"
+        "region": "G ARK Monitor Control Room"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [36.29, 25.85, -55.44]
+
+        "name": "Safebox"
+        "region": "G ARK Monitor Control Room"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [34.64, 25.94, -51.16]
+
+        "name": "Safebox 1"
+        "region": "G ARK Monitor Control Room"
+        "original_item": "Bottle of Acid"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_005"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [34.78, 25.94, -51.12]
+
+        "name": "Safebox 2"
+        "region": "G ARK Monitor Control Room"
+        "original_item": "Med Injector"
+        "condition": "Magnetic Key"
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [34.82, 25.94, -51.23]
+
+        "name": "Green Herb Inside Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Green Herb"
+        "condition": "Magnetic Key"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [16.95, 22.16, -53.76]
+
+        "name": "Inside Southeast Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Hip Pouch"
+        "condition": "Magnetic Key"
+        "item_object": "it99_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [11.57, 22.41, -67.25]
+
+        "name": "Inside Southeast Container 1"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [10.61, 22.46, -67.36]
+
+        "name": "Inside Southwest Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Handgun Ammo"
+        "condition": "Magnetic Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [4.41, 22.87, -66.05]
+
+        "name": "Inside Westside Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Scrap"
+        "condition": "Magnetic Key"
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [2.05, 22.41, -72.3]
+
+        "name": "Inside Middle room Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Makeshift Knife"
+        "condition": "Magnetic Key"
+        "item_object": "it10_20_003"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [7.82, 22.51, -71.91]
+
+        "name": "Inside Eastside Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Scrap"
+        "condition": "Magnetic Key"
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [15.79, 22.87, -72.59]
+
+        "name": "Inside Northwest Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Scrap"
+        "condition": "Magnetic Key"
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [4.25, 22.41, -80.98]
+
+        "name": "Inside Northeast Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Transfusion Bag"
+        "condition": "Magnetic Key"
+        "item_object": "it99_06_004"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [12.66, 22.48, -81.08]
+
+        "name": "Crate Inside Northeast Container"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [12.13, 21.7, -79.87]
+
+        "name": "On Small Cart"
+        "region": "G ARK Operations Room"
+        "original_item": "Med Injector"
+        "condition": "Magnetic Key"
+        "item_object": "it00_01_000_02"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [6.36, 25.75, -95.28]
+
+        "name": "Noblesse Orb"
+        "region": "G ARK Operations Room"
+        "original_item": "Noblesse Orb"
+        "condition": "Magnetic Key"
+        "item_object": "it60_00_107"
+        "parent_object": "sm80_489_00_Dynamic"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Gimmick/Chap5_02_Gimmick_Unique/st50_034_Gimmick_Unique/KeyItem_Box"
+        "item_position": [0.9, 26.1, -93.25]
+
+        "name": "Empty Bottle By Vault Spot"
+        "region": "G ARK Operations Room"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [0.91, 27.38, -87.75]
+
+        "name": "Crate On Westside Walkway Upper Level"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Handgun Ammo"
+        "condition": "Magnetic Key"
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner_02"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [4.62, 25.0, -73.22]
+
+        "name": "Crate On Northeast Walkway Upper Level"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Empty Bottle"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_003"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [16.88, 25.0, -82.32]
+
+        "name": "On Top Of Containers Northeast Corner"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Bottle of Acid"
+        "condition": "Magnetic Key"
+        "item_object": "it20_00_005"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [14.49, 26.16, -85.29]
+
+        "name": "Crate On Southwest Walkway Upper Level"
+        "region": "G ARK Bioweapon Repository 05"
+        "original_item": "Scrap"
+        "condition": "Magnetic Key"
+        "item_object": "it50_00_002"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap5_02/Chap5_02_Item/Item_02"
+        "item_position": [0.7, 25.0, -61.55]

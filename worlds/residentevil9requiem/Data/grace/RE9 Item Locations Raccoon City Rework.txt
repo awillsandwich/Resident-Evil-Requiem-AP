@@ -1,0 +1,1376 @@
+        "name": "Crate By Car"
+        "region": "L ERC Outside Applegate Hotel"
+        "original_item": "Handgun Ammo"
+        "condition":
+        "item_object": "it40_00_000"
+        "parent_object":
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-19.52, -3.24, -424.68]
+
+        "name": "On Table By Globe"
+        "region": "L ERC Applegate Hotel"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-78.2, -2.45, -390.63]
+
+        "name": "In Medical Case"
+        "region": "L ERC Applegate Hotel"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner_02"
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-66.68, -2.63, -395.32]
+
+        "name": "On Floor By Revolving Door"
+        "region": "L ERC Applegate Hotel"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-69.45, -3.21, -386.12]
+
+        "name": "On Metal Cart"
+        "region": "L ERC Cafe Oasis"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-59.34, -2.29, -386.95]
+
+        "name": "Inside The Fridge"
+        "region": "L ERC Cafe Oasis"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-59.37, -2.23, -385.44]
+
+        "name": "Crate During Spider Chase"
+        "region": "L ERC Spider Chase"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-49.0, -3.23, -355.2]
+
+        "name": "Crate Upstairs Behind a Web"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner_01"
+        "folder_path": "MainGame/Chap4_10/Chap4_10_Item"
+        "item_position": [-62.07, 0.75, -359.16]
+
+        "name": "Crate By Brick Wall"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-60.25, 5.0, -341.12]
+
+        "name": "By Window Before Short Ladder"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_10/Chap4_10_Item"
+        "item_position": [-48.6, 5.4, -343.48]
+
+        "name": "Crate After The Short Ladder Left Side"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-65.53, 7.8, -340.28]
+
+        "name": "Crate After The Short Ladder Right Side"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-51.43, 8.78, -344.3]
+
+        "name": "By Window After Short Ladder Right Side"
+        "region": "L ERC Spider Boss Arena"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_10/Chap4_10_Item"
+        "item_position": [-48.61, 5.4, -357.27]
+
+        "name": "Back Of The Car"
+        "region": "L ERC Outside Bomb Gate"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [-25.39, -2.99, -297.14]
+
+        "name": "Hanging Briefcase On Top"
+        "region": "L ERC Outside Bomb Gate"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [-3.3, -3.45, -306.05]
+
+        "name": "On Driver Seat"
+        "region": "L ERC Outside Bomb Gate"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [19.04, -2.48, -308.64]
+
+        "name": "Inside Car Trunk"
+        "region": "L ERC Central Camp"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [16.57, -2.89, -267.51]
+
+        "name": "Inside Box Central Camp"
+        "region": "L Supply Box"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./..............."
+        "item_position": [28.71, -2.48, -270.64]
+
+        "name": "Inside Box 1 Central Camp"
+        "region": "L Supply Box"
+        "original_item": "Shotgun Ammo"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./..............."
+        "item_position": [28.49, -2.48, -269.95]
+
+        "name": "Inside Box"
+        "region": "L ERC Logistics Warehouse 1F"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./..............."
+        "item_position": [35.72, -2.2, -256.42]
+
+        "name": "Inside Locker"
+        "region": "L ERC Logistics Warehouse 1F"
+        "original_item": "Gunpowder Small"
+        "condition": ""
+        "item_object": "it50_00_001"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./..............."
+        "item_position": [39.0, -1.65, -258.51]
+
+        "name": "Crate By The Wall"
+        "region": "L ERC Logistics Warehouse 1F"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [47.44, -3.17, -263.07]
+
+        "name": "Crate By The Pallet"
+        "region": "L ERC Logistics Warehouse 1F"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [61.9, -3.24, -264.7]
+
+        "name": "Green Herb After Climbing Hanging Box"
+        "region": "L ERC Logistics Warehouse 2F"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./............"
+        "item_position": [56.49, 4.77, -281.85]
+
+        "name": "Crate After Hanging Box"
+        "region": "L ERC Logistics Warehouse 2F"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./..............."
+        "item_position": [47.77, 0.73, -258.99]
+
+        "name": "Crate After Hanging Box 1"
+        "region": "L ERC Logistics Warehouse 2F"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [47.76, 0.77, -260.0]
+
+        "name": "Cedarbrook Apartments Key"
+        "region": "L ERC Logistics Warehouse 2F"
+        "original_item": "Cedarbrook Apartments Key"
+        "condition": ""
+        "item_object": "it60_00_094"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_00"
+        "item_position": [42.61, 6.09, -254.35]
+
+        "name": "Green Herb Top Of Box"
+        "region": "L ERC Logistics Warehouse Roof"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./............"
+        "item_position": [43.31, 12.77, -254.63]
+
+        "name": "Distributor"
+        "region": "L ERC Logistics Warehouse Roof"
+        "original_item": "Distributor"
+        "condition": ""
+        "item_object": "it60_00_097"
+        "parent_object": "sm85_040_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_213_Gimmick_Unique"
+        "item_position": [46.16, 12.25, -282.3]
+
+        "name": "Hanging Briefcase"
+        "region": "L ERC Alley East of Central Camp"
+        "original_item": "Hand Grenade"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [58.54, -5.25, -285.08]
+
+        "name": "On Walkway after ladder"
+        "region": "L ERC Alley East of Central Camp"
+        "original_item": "Gunpowder Large"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_01/........./............"
+        "item_position": [70.22, 0.4, -267.29]
+
+        "name": "In case after ladder"
+        "region": "L ERC Alley East of Central Camp"
+        "original_item": "12.7x55 Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [70.45, 0.53, -266.66]
+
+        "name": "Crate On Storage Shelf"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Scrap"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it50_00_002"
+        "parent_object": "ItemSpawner_08"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [85.98, -6.59, -250.42]
+
+        "name": "Green Herb On Table"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/........."
+        "item_position": [90.43, -6.83, -251.53]
+
+        "name": "In Locker"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Rifle Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_08"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [95.19, -6.15, -252.05]
+
+        "name": "On Stack of Boxes"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Shotgun Shells"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/........."
+        "item_position": [105.4, -8.91, -267.74]
+
+        "name": "In back of truck"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Rifle Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_05_000"
+        "parent_object": "sm80_485_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_214_Gimmick_Unique"
+        "item_position": [97.94, -8.86, -281.58]
+
+        "name": "In back of truck 1"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Machine Gun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_03_000"
+        "parent_object": "sm80_485_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_214_Gimmick_Unique"
+        "item_position": [98.37, -8.86, -281.61]
+
+        "name": "Large Supply Case"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Shotgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [88.59, -8.98, -290.3]
+
+        "name": "Large Supply Case 1"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Tracking Module"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [88.37, -8.97, -290.02]
+
+        "name": "Large Supply Case 2"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Gunpowder Large"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [88.01, -8.98, -289.81]
+
+        "name": "In Back of Truck 2"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Machine Gun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_03_000"
+        "parent_object": "sm80_485_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_214_Gimmick_Unique"
+        "item_position": [78.03, -8.86, -259.02]
+
+        "name": "Inside Case In Back of Truck 2"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Hand Grenade"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_02/sapwner"
+        "item_position": [77.45, -8.69, -259.1]
+
+        "name": "Crate next to Zombie With Weapon"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [76.73, -8.75, -283.3]
+
+        "name": "Crate in battery room"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [82.4, -8.75, -286.2]
+
+        "name": "Battery 1"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Battery"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "sm80_469_00_Dynamic"
+        "parent_object": "Gm19_039"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_214_Gimmick_Unique"
+        "item_position": [80.85, -7.16, -291.35]
+
+        "name": "Crate on top of truck"
+        "region": "L ERC Underground Parking Garage"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [93.27, -5.03, -269.52]
+
+        "name": "Crate on Shelving Unit"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Gunpowder Large"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_03"
+        "item_position": [133.87, -6.84, -258.7]
+
+        "name": "Green Herb On Top of Box"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_03"
+        "item_position": [138.16, -10.66, -247.48]
+
+        "name": "Crate Next To Valve"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Shotgun Shells"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_03"
+        "item_position": [146.94, -18.27, -245.04]
+
+        "name": "Valve Handwheel"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Valve Handwheel"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it60_00_104"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_00"
+        "item_position": [143.63, -17.23, -246.31]
+
+        "name": "Crate After Turning Valve 1"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [163.0, -18.25, -250.37]
+
+        "name": "Crate After Turning Valve 2"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [163.0, -18.25, -251.19]
+
+        "name": "Crate Before Stairs"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [178.56, -16.89, -239.57]
+
+        "name": "Green Herb On Top of Pallet"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_03"
+        "item_position": [178.78, -12.45, -256.22]
+
+        "name": "Battery 2"
+        "region": "L ERC Sewage Facility"
+        "original_item": "Battery"
+        "condition": "Cedarbrook Apartments Key"
+        "item_object": "sm80_469_00_Dynamic"
+        "parent_object": "Gm19_039"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_216_Gimmick_Unique"
+        "item_position": [146.2, -9.96, -259.0]
+
+        "name": "Medical Case Inside BSAA 01"
+        "region": "L ERC BSAA Container 01"
+        "original_item": "Med Injector"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner_06"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [85.32, -2.11, -288.74]
+
+        "name": "Green Herb next to BSAA 01"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [98.4, -3.14, -286.56]
+
+        "name": "Inside Box in back of truck"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Hand Grenade"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner_13"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [127.56, -2.39, -297.39]
+
+        "name": "Inside back of car trunk"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [142.34, -2.89, -299.77]
+
+        "name": "Green Herb By Tire"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [159.14, -3.2, -289.38]
+
+        "name": "Crate Next To Water"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Gunpowder Large"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner_17"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [201.75, -8.94, -293.68]
+
+        "name": "In Car Trunk By Water"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner_15"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [203.58, -8.61, -303.01]
+
+        "name": "Crate On Top of BSAA 03"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [172.06, -2.12, -301.68]
+
+        "name": "Case Inside BSAA 03"
+        "region": "L ERC BSAA Container 03"
+        "original_item": "Rifle Ammo"
+        "condition": "BSAA Container Key"
+        "item_object": "it40_05_000_01"
+        "parent_object": "ItemSpawner_01a"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [176.03, -3.69, -299.1]
+
+        "name": "Grenade Next To Corpse"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Hand Grenade"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it20_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [137.62, -3.03, -320.63]
+
+        "name": "Injector Next To Corpse"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Med Injector"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [136.65, -3.05, -320.75]
+
+        "name": "Green Herb On Truck Loader"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [94.89, -3.38, -320.08]
+
+        "name": "Hanging Briefcase By Ladder"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Rifle Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [90.48, -3.25, -314.45]
+
+        "name": "Inside Case After Ladder"
+        "region": "L ERC Gas Station"
+        "original_item": "Hand Grenade"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner_GasStation"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_04/Spawner"
+        "item_position": [88.5, 2.55, -316.66]
+
+        "name": "Crate Near Fuel Tank"
+        "region": "L ERC Gas Station"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [109.67, -3.21, -342.93]
+
+        "name": "Crate On Roof Of Gas Station"
+        "region": "L ERC Gas Station"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [128.01, 0.8, -327.84]
+
+        "name": "Crate Next To Car Door"
+        "region": "L ERC Gas Station"
+        "original_item": "Shotgun Shells"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_GasStation"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_04/Spawner"
+        "item_position": [119.9, -3.1, -320.86]
+
+        "name": "Storage Shelf Inside Gas Station"
+        "region": "L ERC Gas Station"
+        "original_item": "Scrap"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_04"
+        "item_position": [123.6, -2.44, -335.77]
+
+        "name": "Inside Locker"
+        "region": "L ERC Gas Station"
+        "original_item": "Rifle Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_GasStation"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_04/Spawner"
+        "item_position": [133.6, -1.5, -321.55]
+
+        "name": "Crate Next To Gas Can"
+        "region": "L ERC Gas Station"
+        "original_item": "Green Herb"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it00_00_000"
+        "parent_object": "ItemSpawner_GasStation"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_04/Spawner"
+        "item_position": [132.92, -3.15, -315.77]
+
+        "name": "Gas Can"
+        "region": "L ERC Gas Station"
+        "original_item": "Gas Can"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it60_00_093"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_00"
+        "item_position": [131.47, -2.25, -314.63]
+
+        "name": "Crate In Room By Fuel Tank"
+        "region": "L ERC Gas Station"
+        "original_item": "Handgun Ammo"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [104.75, -3.1, -347.6]
+
+        "name": "Back Of Car Before Crane Bridge"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Gunpowder Large"
+        "condition": "Cedarbrook Apartments Key, Battery 1, Battery 2"
+        "item_object": "it50_00_014"
+        "parent_object": "ItemSpawner_16"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [74.67, -2.74, -295.47]
+
+        "name": "Inside Case"
+        "region": "L ERC Construction Site"
+        "original_item": "Mixed Herb G+G"
+        "condition": ""
+        "item_object": "it00_00_100"
+        "parent_object": "ItemSpawner_08"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [61.98, 1.52, -320.83]
+
+        "name": "Inside Case 1"
+        "region": "L ERC Construction Site"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_07"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [62.22, 1.51, -320.79]
+
+        "name": "Inside Case 2"
+        "region": "L ERC Construction Site"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_08"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [62.56, 1.5, -320.88]
+
+        "name": "Inside Case 3"
+        "region": "L ERC Construction Site"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": "ItemSpawner_08"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [62.84, 1.51, -320.73]
+
+        "name": "Behind Construction Container"
+        "region": "L ERC Construction Site"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [54.25, -2.83, -325.63]
+
+        "name": "Hanging Briefcase On Top Of Scrap"
+        "region": "L ERC Construction Site"
+        "original_item": "Stacked Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_004"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [55.84, -3.25, -324.52]
+
+        "name": "Crate on Top of Wood Boards"
+        "region": "L ERC Construction Site"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [38.79, -2.35, -311.24]
+
+        "name": "Inside Back of truck"
+        "region": "L ERC Construction Site"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "sm80_485_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_235_Gimmick_Unique"
+        "item_position": [37.46, -2.37, -315.85]
+
+        "name": "End Of The Tunnel"
+        "region": "L ERC East Ridgewood Station"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner_05"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [45.02, -10.6, -303.6]
+
+        "name": "Crate On Storage Shelf"
+        "region": "L ERC East Ridgewood Station"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [9.81, -16.32, -341.24]
+
+        "name": "Green Herb On Top of Box"
+        "region": "L ERC East Ridgewood Station"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [13.67, -16.12, -342.76]
+
+        "name": "Crate In End Of Subway"
+        "region": "L ERC East Ridgewood Station"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [25.7, -18.14, -349.7]
+
+        "name": "Crate Before Entering 2nd Subway"
+        "region": "L ERC East Ridgewood Station"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-24.27, -18.73, -350.34]
+
+        "name": "Large Case"
+        "region": "L ERC West Ridgewood Station"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_11"
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-63.25, -17.02, -359.52]
+
+        "name": "Large Case 1"
+        "region": "L ERC West Ridgewood Station"
+        "original_item": "12.7x55 Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner_09"
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-63.1, -17.02, -359.31]
+
+        "name": "Large Case 2"
+        "region": "L ERC West Ridgewood Station"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner_10"
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/........."
+        "item_position": [-63.19, -17.03, -358.95]
+
+        "name": "BSAA Container 04"
+        "region": "L ERC BSAA Container 04"
+        "original_item": "Tracking Module"
+        "condition": "BSAA Container Key"
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_1020/Chap4_1020_Item/st40_100_Item_Common"
+        "item_position": [-82.73, -1.99, -409.34]
+
+        "name": "Hanging Briefcase After Vault Window"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "12.7x55 Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [79.33, -3.25, -278.68]
+
+        "name": "Green Herb Under The Stairs"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05"
+        "item_position": [86.96, -3.24, -269.47]
+
+        "name": "Large Case Under Stairs"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [89.45, -2.46, -267.97]
+
+        "name": "Large Case Under Stairs 1"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [89.74, -2.47, -267.95]
+
+        "name": "Large Case Under Stairs 2"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [90.06, -2.46, -267.82]
+
+        "name": "Large Case Under Stairs 3"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [90.3, -2.46, -267.98]
+
+        "name": "Crate next to Rusty Crank"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [94.45, -3.25, -274.04]
+
+        "name": "Rusty Crank"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Rusty Crank"
+        "condition": ""
+        "item_object": "sm90_118_02_Dynamic"
+        "parent_object": "Gm99_052"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_218_Gimmick_Unique"
+        "item_position": [94.15, -3.25, -275.52]
+
+        "name": "Down the stairs after Crank Door"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Shotgun Shells"
+        "condition": "Rusty Crank"
+        "item_object": "it40_01_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05"
+        "item_position": [101.53, 2.17, -269.97]
+
+        "name": "Box Down the stairs after Crank Door"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Stacked Hand Grenade"
+        "condition": "Rusty Crank"
+        "item_object": "it20_00_004"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [101.78, 2.33, -270.26]
+
+        "name": "Crate after Crank Door"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Rifle Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_Building_00"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [113.3, 8.25, -281.64]
+
+        "name": "Rifle Ammo By Blocked Door"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Rifle Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_05_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05"
+        "item_position": [109.69, 9.18, -270.89]
+
+        "name": "Inside Medical Case"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Med Injector"
+        "condition": "Rusty Crank"
+        "item_object": "it00_01_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [109.04, 12.95, -260.85]
+
+        "name": "Crate in Destroyed Building"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Handgun Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [112.3, 11.94, -248.87]
+
+        "name": "Crate Under Air Duct"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Handgun Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [98.97, 11.75, -260.35]
+
+        "name": "Crate In Destroyed Rooftop Building"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Shotgun Shells"
+        "condition": "Rusty Crank"
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [91.98, 16.29, -251.83]
+
+        "name": "Crate In Destroyed Rooftop Building 1"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Rifle Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_Building_00"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [91.95, 15.45, -254.05]
+
+        "name": "Box After Breakable Wall"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "12.7x55 Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner_Building_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_05/Spawner"
+        "item_position": [79.19, 16.43, -245.37]
+
+        "name": "Broken Signal Receiver Box"
+        "region": "L ERC Cedarbrook Apartments Roof"
+        "original_item": "Broken Signal Receiver"
+        "condition": "Rusty Crank"
+        "item_object": "it60_00_108"
+        "parent_object": "sm85_040_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_220_Gimmick_Unique"
+        "item_position": [91.53, 20.11, -276.33]
+
+        "name": "Hanging Briefcase By Skylight"
+        "region": "L ERC Cedarbrook Apartments 1F"
+        "original_item": "Tracking Module"
+        "condition": "Rusty Crank"
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [99.23, -3.23, -275.13]
+
+        "name": "Crate After Sewage Facility Crank Door"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Handgun Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [137.9, -3.43, -273.3]
+
+        "name": "Large Case After Sewage Facility Crank Door"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Shotgun Shells"
+        "condition": "Rusty Crank"
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner_03"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [139.78, -2.75, -266.89]
+
+        "name": "Large Case After Sewage Facility Crank Door 1"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "12.7x55 Ammo"
+        "condition": "Rusty Crank"
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner_03"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [140.04, -2.72, -267.04]
+
+        "name": "Large Case After Sewage Facility Crank Door 2"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Tracking Module"
+        "condition": "Rusty Crank"
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [140.37, -2.74, -267.06]
+
+        "name": "Large Case After Sewage Facility Crank Door 3"
+        "region": "L ERC Outside Cedarbrook Apartments"
+        "original_item": "Stacked Hand Grenade"
+        "condition": "Rusty Crank"
+        "item_object": "it20_00_004"
+        "parent_object": "ItemSpawner_02"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08"
+        "item_position": [140.56, -2.71, -267.01]
+
+        "name": "Large Case Before Zip Line"
+        "region": "L ERC Logistics Warehouse Roof"
+        "original_item": "Machine Gun Ammo"
+        "condition": "Gas Can With Fuel"
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06/Spawner"
+        "item_position": [36.65, 9.04, -239.41]
+
+        "name": "Large Case Before Zip Line 1"
+        "region": "L ERC Logistics Warehouse Roof"
+        "original_item": "Hand Grenade"
+        "condition": "Gas Can With Fuel"
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06/Spawner"
+        "item_position": [36.66, 9.04, -239.72]
+
+        "name": "Inside Trash Can"
+        "region": "L ERC Willis Tower"
+        "original_item": "Scrap"
+        "condition": ""
+        "item_object": "it50_00_002"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06"
+        "item_position": [55.34, 6.32, -208.19]
+
+        "name": "Top of The Desk"
+        "region": "L ERC Willis Tower"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06"
+        "item_position": [61.58, 7.09, -208.95]
+
+        "name": "Hanging Briefcase"
+        "region": "L ERC Willis Tower"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_08/.............................."
+        "item_position": [63.52, 10.14, -207.74]
+
+        "name": "Green Herb On Desk"
+        "region": "L ERC Willis Tower"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06"
+        "item_position": [54.02, 6.98, -182.42]
+
+        "name": "Desk on Upper Floor"
+        "region": "L ERC Willis Tower"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06"
+        "item_position": [59.11, 11.02, -181.4]
+
+        "name": "Crate after pillar"
+        "region": "L ERC Willis Tower Collapsed Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [18.86, 18.41, -206.78]
+
+        "name": "Crate after elevator cars"
+        "region": "L ERC Willis Tower Collapsed Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_06/Spawner"
+        "item_position": [-3.84, 24.68, -235.75]
+
+        "name": "Crate Above The Glass Floor"
+        "region": "L ERC Willis Tower Glass Floor"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-12.15, 22.94, -236.4]
+
+        "name": "Top Of Stacked Boxes"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-30.12, 26.59, -267.11]
+
+        "name": "Top Of Stacked Boxes 1"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000_01"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-30.22, 26.62, -267.13]
+
+        "name": "Top Of Weapon Crates"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-31.2, 26.71, -267.16]
+
+        "name": "Relay"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Relay"
+        "condition": ""
+        "item_object": "it60_00_098"
+        "parent_object": "sm85_040_00_Dynamic"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Gimmick/Chap4_20_Gimmick_Unique/st40_227_Gimmick_Unique"
+        "item_position": [-31.2, 26.71, -267.16]
+
+        "name": "Green Herb Next To Save Point"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-31.2, 26.71, -267.16]
+
+        "name": "Large Case After Ladder"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "12.7x55 Ammo"
+        "condition": ""
+        "item_object": "it40_02_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-40.17, 31.32, -278.16]
+
+        "name": "Large Case After Ladder 1"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Hand Grenade"
+        "condition": ""
+        "item_object": "it20_00_000"
+        "parent_object": "ItemSpawner_02"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-39.89, 31.36, -278.02]
+
+        "name": "Large Case After Ladder 2"
+        "region": "L ERC Grimstone Building Rooftop Starting Area"
+        "original_item": "Machine Gun Ammo"
+        "condition": ""
+        "item_object": "it40_03_000"
+        "parent_object": "ItemSpawner_01"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-39.52, 31.32, -278.05]
+
+        "name": "Crate After The Stairs"
+        "region": "L ERC Grimstone Building Rooftop West Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-71.72, 33.29, -253.37]
+
+        "name": "Green Herb After Hanging Box"
+        "region": "L ERC Grimstone Building Rooftop West Building"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": "ItemSpawner_03"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-80.03, 37.54, -255.0]
+
+        "name": "Rifle Ammo After Hanging Box"
+        "region": "L ERC Grimstone Building Rooftop West Building"
+        "original_item": "Rifle Ammo"
+        "condition": ""
+        "item_object": "it40_05_000"
+        "parent_object": "ItemSpawner_04"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07"
+        "item_position": [-80.83, 39.05, -254.89]
+
+        "name": "Crate Under The Stairs"
+        "region": "L ERC Grimstone Building Rooftop West Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-81.9, 33.24, -266.56]
+
+        "name": "On The Oil Barrel"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Gunpowder Large"
+        "condition": ""
+        "item_object": "it50_00_014"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-45.17, 26.93, -249.49]
+
+        "name": "Green Herb Before Ledge"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Green Herb"
+        "condition": ""
+        "item_object": "it00_00_000"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-47.98, 25.94, -237.36]
+
+        "name": "Crate Next To Zombie"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-39.63, 25.77, -230.66]
+
+        "name": "Crate By The Corner"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-39.85, 25.76, -245.0]
+
+        "name": "Crate By Stack Of Wood Planks"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Shotgun Shells"
+        "condition": ""
+        "item_object": "it40_01_000"
+        "parent_object": "ItemSpawner"
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/......"
+        "item_position": [-46.48, 30.28, -244.84]
+
+        "name": "Crate By Stack Of Wood Planks 1"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-45.37, 30.25, -246.58]
+
+        "name": "Crate Next To Corpse"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Handgun Ammo"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-46.61, 30.25, -251.72]
+
+        "name": "Corpse Med Injector"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Med Injector"
+        "condition": ""
+        "item_object": "it40_00_000"
+        "parent_object": ""
+        "folder_path": "AppResident/Instance/Item"
+        "item_position": [-46.61, 30.25, -251.72]
+
+        "name": "Corpse Tracking Module"
+        "region": "L ERC Grimstone Building Rooftop South East Building"
+        "original_item": "Tracking Module"
+        "condition": ""
+        "item_object": "it99_50_008"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_07/SubFolder"
+        "item_position": [-45.49, 30.27, -249.61]
+
+        "name": "Repair Kit"
+        "region": "L ERC BSAA Container 02"
+        "original_item": "Repair Kit"
+        "condition": ""
+        "item_object": "it60_00_109"
+        "parent_object": ""
+        "folder_path": "MainGame/Chap4_20/Chap4_20_Item/Chap4_20_Item_00"
+        "item_position": [25.99, -2.27, -268.81]
