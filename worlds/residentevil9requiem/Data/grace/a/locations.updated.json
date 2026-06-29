@@ -2775,7 +2775,7 @@
     },
     {
         "name": "Inside Box Central Camp",
-        "region": "L Supply Box",
+        "region": "L ERC Central Camp",
         "original_item": "Handgun Ammo",
         "condition": {},
         "item_object": "it40_00_000",
@@ -2789,7 +2789,7 @@
     },
     {
         "name": "Inside Box 1 Central Camp",
-        "region": "L Supply Box",
+        "region": "L ERC Central Camp",
         "original_item": "Shotgun Ammo",
         "condition": {},
         "item_object": "it40_01_000",
