@@ -237,6 +237,72 @@
         "to": "L CCC WW Attic",
         "condition": {}
     },
+	{ 
+        "from": "L CCC WW Attic",
+        "to": "L CCC West Wing",
+        "condition": {}
+    },
+	{ 
+        "from": "L CCC West Wing",
+        "to": "L CCC East Wing",
+        "condition": {}
+    },
+	{ 
+        "from": "L CCC West Wing",
+        "to": "L CCC WW Lounge",
+        "condition": {}
+    },
+	{ 
+        "from": "L CCC WW Lounge",
+        "to": "L CCC WW Meeting Room",
+        "condition": {}
+    },
+	{ 
+        "from": "L CCC WW Meeting Room",
+        "to": "L CCC WW Director's Office",
+        "condition": {}
+    },
+	{ 
+        "from": "L CCC WW Director's Office",
+        "to": "G CCC Basement",
+        "condition": {}
+    },
+	{ 
+        "from": "G CCC Basement",
+        "to": "G CCC Basement Security Room",
+        "condition": {}
+    },
+	{ 
+        "from": "G CCC Basement Security Room",
+        "to": "G CCC Basement Furnace",
+        "condition": {}
+    },
+	{ 
+        "from": "G CCC Basement Furnace",
+        "to": "G CCC Basement Holding Cells",
+        "condition": {}
+    },
+	{ 
+        "from": "G CCC Basement Holding Cells",
+        "to": "G CCC Basement Workshop",
+        "condition": {
+		"Items":["Joint Plug"]
+	}
+    },
+	{ 
+        "from": "G CCC Basement Holding Cells",
+        "to": "G CCC Basement Boiler Room",
+        "condition": {
+		"Items":["Joint Plug"]
+	}
+    },
+	{ 
+        "from": "G CCC Basement Holding Cells",
+        "to": "G CCC Basement Bunkroom",
+        "condition": {
+		"Items":["Joint Plug"]
+	}
+    },
 
 
 
@@ -257,7 +323,7 @@
 		"Items":["BSAA Container Key"]
 	}
     },
-        { 
+    { 
         "from": "L ERC Applegate Hotel",
         "to": "L ERC Spider Chase",
         "condition": {}
