@@ -1,0 +1,687 @@
+[
+    { 
+        "from": "Menu",
+        "to": "G Wrenwood",
+        "condition": {}
+    },
+    { 
+        "from": "G Wrenwood",
+        "to": "L Wrenwood",
+        "condition": {
+		"Items": ["Room 201 Key", "Wirecutters", "Fire Escape Key"]
+        }
+    },
+    { 
+        "from": "L Wrenwood",
+        "to": "G CCC Intro",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC Intro",
+        "to": "G CCC Intro Room 201",
+        "condition": {
+	    "Items": ["Cherub Key"]
+	}
+    },
+    { 
+        "from": "G CCC Intro Room 201",
+        "to": "G CCC Intro Nurses' Station",
+        "condition": {
+		"Items":["Lighter"]
+	}
+    },
+    { 
+        "from": "G CCC Intro Nurses' Station",
+        "to": "L CCC Intro Rehabilitation Ward",
+        "condition": {
+		"Items":["Fuse"]
+	}
+    },
+    { 
+        "from": "L CCC Intro Rehabilitation Ward",
+        "to": "G CCC Central Hall",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC Central Hall",
+        "to": "G CCC Guard Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC Guard Office",
+        "to": "G CCC Medication Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC Central Hall",
+        "to": "G CCC WW Kitchen",
+        "condition": {
+		"Items":["West Wing Key Card"]
+	}
+    },
+    { 
+        "from": "G CCC WW Kitchen",
+        "to": "G CCC WW Parlor",
+        "condition": {
+		"Items":["Unicorn Trinket Box"]
+	}
+    },
+    { 
+        "from": "G CCC WW Kitchen",
+        "to": "G CCC WW Pantry",
+        "condition": {
+		"Items":["Pantry Key"]
+	}
+    },
+    { 
+        "from": "G CCC WW Kitchen",
+        "to": "G CCC WW Kitchen Hallway",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Kitchen Hallway",
+        "to": "G CCC WW Restroom",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Kitchen Hallway",
+        "to": "G CCC WW Dining Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Dining Room",
+        "to": "G CCC WW Dining Room Hallway",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Dining Room Hallway",
+        "to": "G CCC WW Filing Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Filing Room",
+        "to": "G CCC WW Filing Room Closet",
+        "condition": {
+		"Items": ["ID Wristband Level 1"]
+	}
+    },
+    { 
+        "from": "G CCC WW Dining Room Hallway",
+        "to": "G CCC WW 3F",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Dining Room Hallway",
+        "to": "G CCC WW Bar & Lounge",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Bar & Lounge",
+        "to": "G CCC WW Gallery",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Gallery",
+        "to": "G CCC WW Chairman's Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Kitchen",
+        "to": "G CCC WW Custodian's Office Hallway",
+        "condition": {
+		"Items":["ID Wristband Level 1"]
+	}
+    },
+    { 
+        "from": "G CCC WW Custodian's Office Hallway",
+        "to": "G CCC WW Custodian's Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Custodian's Office",
+        "to": "G CCC WW Garage",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Custodian's Office",
+        "to": "G CCC WW Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Office",
+        "to": "G CCC WW Records Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC WW Office",
+        "to": "G CCC WW Kitchenette",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC Central Hall",
+        "to": "G CCC EW Lobby",
+        "condition": {
+		"Items":["East Wing Key Card"]
+	}
+    },
+    { 
+        "from": "G CCC EW Lobby",
+        "to": "G CCC EW Examination Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW Examination Room",
+        "to": "G CCC EW Blood Lab",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW Blood Lab",
+        "to": "G CCC EW Blood Lab Closet",
+        "condition": {
+		"Items":["ID Wristband Level 1"]
+	}
+    },
+    { 
+        "from": "G CCC EW 1F Hallway",
+        "to": "G CCC EW Isolation Ward",
+        "condition": {
+		"Items":["ID Wristband Level 2"]
+	}
+    },
+    { 
+        "from": "G CCC EW Isolation Ward",
+        "to": "G CCC EW Security Manager's Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW Blood Lab",
+        "to": "G CCC EW 1F Hallway",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW 1F Hallway",
+        "to": "G CCC EW Waiting Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW Waiting Room",
+        "to": "G CCC EW Waiting Room Closet",
+        "condition": {
+		"Items":["ID Wristband Level 1"]
+	}
+    },
+    { 
+        "from": "G CCC EW 1F Hallway",
+        "to": "G CCC EW 2F Hallway",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW 2F Hallway",
+        "to": "G CCC EW Lead Researcher's Office",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW 2F Hallway",
+        "to": "G CCC EW Conference Room",
+        "condition": {}
+    },
+    { 
+        "from": "G CCC EW Security Manager's Office",
+        "to": "G CCC EW Isolation Ward Emily Defense",
+        "condition": {
+		"Items":["ID Wristband Level 3"]
+	}
+    },
+    { 
+        "from": "G CCC EW Isolation Ward Emily Defense",
+        "to": "L CCC WW Attic",
+        "condition": {}
+    },
+
+
+
+    { 
+        "from": "L ERC Outside Applegate Hotel",
+        "to": "L ERC Applegate Hotel",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Applegate Hotel",
+        "to": "L ERC Cafe Oasis",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Applegate Hotel",
+        "to": "L ERC BSAA Container 04",
+        "condition": {
+		"Items":["BSAA Container Key"]
+	}
+    },
+        { 
+        "from": "L ERC Applegate Hotel",
+        "to": "L ERC Spider Chase",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Applegate Hotel",
+        "to": "L ERC Spider Boss Arena",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Spider Boss Arena",
+        "to": "L ERC West Ridgewood Station",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC West Ridgewood Station",
+        "to": "L ERC East Ridgewood Station",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC West Ridgewood Station",
+        "to": "L ERC Outside Bomb Gate",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Bomb Gate",
+        "to": "L ERC Central Camp",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Bomb Gate",
+        "to": "L ERC Grimstone Building Basement",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC Outside Bomb Gate",
+        "to": "L ERC Construction Site",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC Central Camp",
+        "to": "L Supply Box",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Central Camp",
+        "to": "L ERC BSAA Container 02",
+        "condition": {
+		"Items":["BSAA Container Key"]
+	}
+    },
+    { 
+        "from": "L ERC Central Camp",
+        "to": "L ERC Alley East of Central Camp",
+        "condition": {
+		"Items":["Cedarbrook Apartments Key"]
+	}
+    },
+    { 
+        "from": "L ERC Central Camp",
+        "to": "L ERC Logistics Warehouse 1F",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Logistics Warehouse 1F",
+        "to": "L ERC Logistics Warehouse 2F",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Logistics Warehouse 2F",
+        "to": "L ERC Logistics Warehouse Roof",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Logistics Warehouse 2F",
+        "to": "L ERC Willis Tower",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC Logistics Warehouse Roof",
+        "to": "L ERC Logistics Warehouse 2F",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Logistics Warehouse Roof",
+        "to": "L ERC Central Camp",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Alley East of Central Camp",
+        "to": "L ERC Underground Parking Garage",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Underground Parking Garage",
+        "to": "L ERC Sewage Facility",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Underground Parking Garage",
+        "to": "L ERC Outside Cedarbrook Apartments",
+        "condition": {
+		"Items":["Battery 1", "Battery 2"]
+	}
+    },
+    { 
+        "from": "L ERC Sewage Facility",
+        "to": "L ERC Outside Cedarbrook Apartments",
+        "condition": {
+		"Items":["Rusty Crank"]
+	}
+    },
+    { 
+        "from": "L ERC Outside Cedarbrook Apartments",
+        "to": "L ERC BSAA Container 01",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Cedarbrook Apartments",
+        "to": "L ERC BSAA Container 03",
+        "condition": {
+		"Items":["BSAA Container Key"]
+	}
+    },
+    { 
+        "from": "L ERC Outside Cedarbrook Apartments",
+        "to": "L ERC Gas Station",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Cedarbrook Apartments",
+        "to": "L ERC Construction Site",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC Gas Station",
+        "to": "L ERC Outside Cedarbrook Apartments",
+        "condition": {
+		"Items":["Gas Can", "Gas Can With Fuel"]
+	}
+    },
+    { 
+        "from": "L ERC Construction Site",
+        "to": "L ERC East Ridgewood Station",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC East Ridgewood Station",
+        "to": "L ERC Outside Applegate Hotel",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC East Ridgewood Station",
+        "to": "L ERC Outside Bomb Gate",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC East Ridgewood Station",
+        "to": "L ERC West Ridgewood Station",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Cedarbrook Apartments",
+        "to": "L ERC Cedarbrook Apartments 1F",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Cedarbrook Apartments 1F",
+        "to": "L ERC Cedarbrook Apartments Roof",
+        "condition": {
+		"Items":["Rusty Crank"]
+	}
+    },
+    { 
+        "from": "L ERC Cedarbrook Apartments Roof",
+        "to": "L ERC Cedarbrook Apartments 1F",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Willis Tower",
+        "to": "L ERC Willis Tower Collapsed Building",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Willis Tower Collapsed Building",
+        "to": "L ERC Willis Tower Glass Floor",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Willis Tower Glass Floor",
+        "to": "L ERC Grimstone Building Rooftop Starting Area",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Grimstone Building Rooftop Starting Area",
+        "to": "L ERC Grimstone Building Rooftop West Building",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Grimstone Building Rooftop West Building",
+        "to": "L ERC Grimstone Building Rooftop South East Building",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Grimstone Building Rooftop South East Building",
+        "to": "L ERC Grimstone Building Basement",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Grimstone Building Basement",
+        "to": "L ERC Outside Bomb Gate",
+        "condition": {}
+    },
+    { 
+        "from": "L ERC Outside Bomb Gate",
+        "to": "L RCC RPD",
+        "condition": {
+		"Items":["Distributor", "Broken Signal Receiver", "Repair Kit", "Relay"]
+	}
+    },
+    { 
+        "from": "L RCC RPD",
+        "to": "L RCC Outside RPD",
+        "condition": {
+		"Items":["Mechanic Jack"]
+	}
+    },
+    { 
+        "from": "L RCC Outside RPD",
+        "to": "L RCC RPD Basement",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Outside RPD",
+        "to": "L RCC RPD Gun Shop Kendo",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC RPD Gun Shop Kendo",
+        "to": "L RCC Before Tyrant Boss",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Before Tyrant Boss",
+        "to": "L RCC Tyrant Boss Arena",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Tyrant Boss Arena",
+        "to": "L RCC Basketball Court",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Tyrant Boss Arena",
+        "to": "L RCC Blackthorn Station",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Blackthorn Station",
+        "to": "L RCC Blackthorn Station Platform",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Blackthorn Station Platform",
+        "to": "L RCC Area Before Plant 43 Boss",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Area Before Plant 43 Boss",
+        "to": "L RCC Plant 43 Boss Arena",
+        "condition": {}
+    },
+    { 
+        "from": "L RCC Plant 43 Boss Arena",
+        "to": "L ARK Loading Dock",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Loading Dock",
+        "to": "L ARK Staff Room",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Staff Room",
+        "to": "L ARK Server Room",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Server Room",
+        "to": "L ARK Stockroom",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Stockroom",
+        "to": "L ARK Guest Lounge",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Guest Lounge",
+        "to": "L ARK HUNK Boss Arena",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK HUNK Boss Arena",
+        "to": "G ARK Dump Control Room",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Dump Control Room",
+        "to": "G ARK Dump Control Room Stairwell",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Dump Control Room",
+        "to": "G ARK Clean Room",
+        "condition": {
+		"Items":["Magnetic Key"]
+	}
+    },
+    { 
+        "from": "G ARK Dump Control Room Stairwell",
+        "to": "G ARK Lab Entrance",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Lab Entrance",
+        "to": "G ARK Lobby",
+        "condition": {
+		"Items":["Magnetic Key"]
+	}
+    },
+    { 
+        "from": "G ARK Lab Entrance",
+        "to": "G ARK Sterilization Chamber",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Sterilization Chamber",
+        "to": "G ARK Bioweapon Repository 02",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Bioweapon Repository 02",
+        "to": "G ARK Chemical Storage",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Chemical Storage",
+        "to": "G ARK Dump Control Room",
+        "condition": {
+		"Items":["Override Key (Dump Control Room)"]
+	}
+    },
+    { 
+        "from": "G ARK Bioweapon Repository 02",
+        "to": "G ARK Clean Room",
+        "condition": {
+		"Items":["Magnetic Key"]
+	}
+    },
+    { 
+        "from": "G ARK Lobby",
+        "to": "G ARK Monitor Control Room",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Lobby",
+        "to": "G ARK Anteroom",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Lobby",
+        "to": "L ARK Back Room",
+        "condition": {
+		"Items":["Animus Orb", "Noblesse Orb"]
+	}
+    },
+    { 
+        "from": "G ARK Anteroom",
+        "to": "G ARK Bioweapon Repository 05",
+        "condition": {}
+    },
+    { 
+        "from": "G ARK Bioweapon Repository 05",
+        "to": "G ARK Operations Room",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Back Room",
+        "to": "L ARK Room Outside B4 Staff Room",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Room Outside B4 Staff Room",
+        "to": "L ARK B4 Staff Room",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Room Outside B4 Staff Room",
+        "to": "L ARK Bioweapon Repository 11",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Bioweapon Repository 11",
+        "to": "L ARK Bioweapon Repository 12",
+        "condition": {}
+    },
+    { 
+        "from": "L ARK Bioweapon Repository 12",
+        "to": "L ARK Final Boss Arena",
+        "condition": {
+		"Items":["Override Key (Bioweapon Repository 11)"]
+	}
+    },
+    
+    
+]
