@@ -303,6 +303,20 @@
 		"Items":["Joint Plug"]
 	}
     },
+	{ 
+        "from": "G CCC Basement Holding Cells",
+        "to": "G CCC Basement Collection Pool",
+        "condition": {
+		"Items":["Joint Plug", "Joint Plug"]
+	}
+    },
+	{ 
+        "from": "G CCC Basement Furnace Hallway",
+        "to": "G CCC Basement Inspection",
+        "condition": {
+		"Items":["Joint Plug", "Forklift Key"]
+	}
+    },
 
 
 
